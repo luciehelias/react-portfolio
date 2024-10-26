@@ -1,8 +1,7 @@
-import React from "react";
 import { FaLinkedin } from "react-icons/fa";
 import { FaGithub } from "react-icons/fa";
 
-import logo from "../assets/images/Lucie Hélias.jpg";
+import logo from "../images/Lucie Hélias.jpg";
 
 const Navbar = () => {
   return (
