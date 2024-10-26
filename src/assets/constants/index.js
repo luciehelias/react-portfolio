@@ -2,7 +2,9 @@ export const HERO_CONTENT = `Développeuse passionnée et rigoureuse, je maîtri
 
 export const MOTIVATION = `Chaque projet me permet de produire un code propre, testé et réutilisable. Autodidacte, je continue de renforcer mes connaissances en explorant de nouvelles technologies et en m’investissant dans des plateformes de formation comme Frontend Mentor ou OpenClassrooms.`;
 
-export const ABOUT_TEXT = `I am a dedicated and versatile full stack developer with a passion for creating efficient and user-friendly web applications. With 5 years of professional experience, I have worked with a variety of technologies, including React, Next.js, Node.js, MySQL, PostgreSQL, and MongoDB. My journey in web development began with a deep curiosity for how things work, and it has evolved into a career where I continuously strive to learn and adapt to new challenges. I thrive in collaborative environments and enjoy solving complex problems to deliver high-quality solutions. Outside of coding, I enjoy staying active, exploring new technologies, and contributing to open-source projects.`;
+export const ABOUT_TEXT = `Développeuse full stack en début de carrière, j’ai découvert une véritable passion pour la création d’applications web dynamiques et accessibles. Ayant suivi une formation intensive, j’ai acquis des compétences en JavaScript, React, Node.js, et MongoDB, que j’ai eu l’occasion d’appliquer sur des projets concrets. Curieuse et motivée, j’aime apprendre de nouvelles technologies et relever des défis techniques pour élargir mes compétences. 
+
+Toujours prête à collaborer et à m’adapter, je suis enthousiaste à l’idée de contribuer à des projets stimulants, en m’efforçant d’améliorer chaque ligne de code pour offrir des solutions de qualité.`;
 
 export const EXPERIENCES = [
   {
