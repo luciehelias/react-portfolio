@@ -18,12 +18,12 @@ const Technologies = () => {
         <div className="border-2 border-neutral-400 rounded-2xl p-2">
           <RiJavascriptLine className="text-7xl text-yellow-400" />
         </div>
-        {/* <div className="border-2 border-neutral-400 rounded-2xl p-2">
+        <div className="border-2 border-neutral-400 rounded-2xl p-2">
           <FaHtml5 className="text-7xl text-orange-500" />
-        </div> */}
-        {/* <div className="border-2 border-neutral-400 rounded-2xl p-2">
+        </div>
+        <div className="border-2 border-neutral-400 rounded-2xl p-2">
           <FaCss3Alt className="text-7xl text-sky-600" />
-        </div> */}
+        </div>
         <div className="border-2 border-neutral-400 rounded-2xl p-2">
           <SiTypescript className="text-7xl text-sky-600" />
         </div>
