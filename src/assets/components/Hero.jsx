@@ -16,7 +16,7 @@ const Hero = () => {
             <span className="bg-clip-text text-3xl font-extralight ">
               Développeuse full-stack (react)
             </span>
-            <p className="my-2 max-w-xl py-6 font-extralight tracking-tighter">
+            <p className="my-2 max-w-xl py-6 font-extralight tracking-tighter whitespace-pre-line text-justify">
               {HERO_CONTENT}
             </p>
           </div>
@@ -26,7 +26,7 @@ const Hero = () => {
             <img
               src={profilePic}
               alt=" photo de profil"
-              className="rounded-2xl "
+              className="rounded-2xl mt-32 "
             />
           </div>
         </div>
