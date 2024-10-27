@@ -57,24 +57,31 @@ export const PROJECTS = [
     title: "E-Commerce Website",
     description:
       "A fully functional e-commerce website with features like product listing, shopping cart, and user authentication.",
+    link: "",
     technologies: ["HTML", "CSS", "React", "Node.js", "MongoDB"],
   },
   {
     title: "Task Management App",
     description:
       "An application for managing tasks and projects, with features such as task creation, assignment, and progress tracking.",
+    link: "",
+
     technologies: ["HTML", "CSS", "Angular", "Firebase"],
   },
   {
     title: "Portfolio Website",
     description:
       "A personal portfolio website showcasing projects, skills, and contact information.",
+    link: "",
+
     technologies: ["HTML", "CSS", "React", "Bootstrap"],
   },
   {
     title: "Blogging Platform",
     description:
       "A platform for creating and publishing blog posts, with features like rich text editing, commenting, and user profiles.",
+    link: "",
+
     technologies: ["HTML", "CSS", "Vue.js", "Express", "mySQL"],
   },
 ];
