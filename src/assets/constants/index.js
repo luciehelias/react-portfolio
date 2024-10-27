@@ -8,32 +8,47 @@ Toujours prête à collaborer et à m’adapter, je suis enthousiaste à l’id�
 
 export const EXPERIENCES = [
   {
-    year: "2023 - Present",
-    role: "Senior Full Stack Developer",
-    company: "Google Inc.",
-    description: `Led a team in developing and maintaining web applications using JavaScript, React.js, and Node.js. Implemented RESTful APIs and integrated with MongoDB databases. Collaborated with stakeholders to define project requirements and timelines.`,
-    technologies: ["Javascript", "React.js", "Next.js", "mongoDB"],
+    year: "2024 - Maintenant",
+    role: "Formation : Dévéloppeuse Full Stack",
+    company: "Autodidacte",
+    description:
+      "Je me forme de manière autodidacte sur différentes plateformes tel que Frontend Mentor, OpenClassrooms, Youtube ou encore en suivant des formations payantes de développeur tel que Traversy Media",
+    technologies: [
+      "HTML",
+      "CSS",
+      "Javascript",
+      "React.js",
+      "Typescript",
+      "Tailwind",
+    ],
   },
   {
-    year: "2022 - 2023",
-    role: "Frontend Developer",
-    company: "Adobe",
-    description: `Designed and developed user interfaces for web applications using Next.js and React. Worked closely with backend developers to integrate frontend components with Node.js APIs. Implemented responsive designs and optimized frontend performance.`,
-    technologies: ["HTML", "CSS", "Vue.js", "mySQL"],
+    year: "Juillet 2024 - Octobre 2024",
+    role: "Formation : Développeuse Full Stack",
+    company: "Le Reacteur",
+    description:
+      "J'ai suivi une formation intense chez Le Reacteur qui est un bootcamp principalement sur React et React Native. J'ai pu travailler sur différents projets utilisant des stacks différentes. A la fin de la formation, j'ai également pu créer une MVP pour une start-up. ",
+    technologies: [
+      "Javascript",
+      "React.js",
+      "React Native",
+      "Node.js",
+      "mongoDB",
+      "Express.js",
+    ],
   },
   {
-    year: "2021 - 2022",
-    role: "Full Stack Developer",
-    company: "Facebook",
-    description: `Developed and maintained web applications using JavaScript, React.js, and Node.js. Designed and implemented RESTful APIs for data communication. Collaborated with cross-functional teams to deliver high-quality software products on schedule.`,
-    technologies: ["Python", "Svelte", "Three.js", "Postgres"],
+    year: " Mars 2017 - Maintenant ",
+    role: "Barista Freelance / Manager Barista ",
+    company: "Nouvelle-Zélande, Australie, France",
+    description:
+      "En tant que Freelance, je travaille dans plusieurs cafés parisiens de manière ponctuel ou régulière comme chez Noir Coffee Shop. J'ai pû pendant 3 ans travailler à l'étranger et devenir manager d'équipe. J'ai dû former et recruter des nouveaux employés internationaux, mais également participer activement au développement de la stratégie commerciale d'un restaurant et faire ainsi 30% de CA de plus que les années précédentes. ",
   },
   {
-    year: "2020 - 2021",
-    role: "Software Engineer",
-    company: "Paypal",
-    description: `Contributed to the development of web applications using JavaScript, React.js, and Node.js. Managed databases and implemented data storage solutions using MongoDB. Worked closely with product managers to prioritize features and enhancements.`,
-    technologies: ["Ruby", "Rails", "PHP", "Sqlite"],
+    year: "Mars 2021 - Juin 2021",
+    role: "Assistante communication et marketing",
+    company: "Morjana Cosmetiques",
+    description: `J'ai créer un site e-commerce avec le " CMS Wix pour permettre à l'entreprise de partir sur un positionnement en B2C en plus de leur positionnement en B2B. Mais finalement après un changement de la direction, le projet n'a pas vu le jour. `,
   },
 ];
 
