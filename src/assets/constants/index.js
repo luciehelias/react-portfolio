@@ -6,6 +6,14 @@ export const ABOUT_TEXT = `Développeuse full stack en début de carrière, j’
 
 Toujours prête à collaborer et à m’adapter, je suis enthousiaste à l’idée de contribuer à des projets stimulants, en m’efforçant d’améliorer chaque ligne de code pour offrir des solutions de qualité.`;
 
+import FrontendMentor1 from "../images/frontend mentor 1.png";
+import FrontendMentor2 from "../images/frontend mentor 2.png";
+import FrontendMentor3 from "../images/frontend mentor 3.png";
+import Marvel from "../images/project marvel .png";
+import Tripadvisor from "../images/project tripadvisor.png";
+import Vinted from "../images/projet Vinted.png";
+import Padel from "../images/project deuce padel 1.png";
+
 export const EXPERIENCES = [
   {
     year: "2024 - Maintenant",
@@ -54,40 +62,47 @@ export const EXPERIENCES = [
 
 export const PROJECTS = [
   {
-    title: "E-Commerce Website",
+    title: "Frontend Mentor",
+    image: FrontendMentor1,
     description:
-      "A fully functional e-commerce website with features like product listing, shopping cart, and user authentication.",
-    link: "",
-    technologies: ["HTML", "CSS", "React", "Node.js", "MongoDB"],
+      "J'ai pu réaliser différents challenges en partant de zéro en essayent de recopier les images données ou en suivant un Figma si celui-ci était donné. J'ai actuellement fait 9 challenges.  ",
+    link: "https://www.frontendmentor.io/profile/luciehelias",
+    technologies: ["HTML", "CSS", "Javascript"],
   },
   {
-    title: "Task Management App",
+    title: "Marvel",
+    image: Marvel,
     description:
-      "An application for managing tasks and projects, with features such as task creation, assignment, and progress tracking.",
-    link: "",
-
-    technologies: ["HTML", "CSS", "Angular", "Firebase"],
+      "J'ai créé une application Marvel où l'utilisateur peut chercher grâce à la barre de recherche ses comics favoris ou ses personnages favoris et les mettre dans ses favoris",
+    link: "https://project-marvel-react.netlify.app",
+    technologies: ["HTML", "CSS", "React", "Node.js", "Express"],
   },
   {
-    title: "Portfolio Website",
+    title: "TripAdvisor",
+    image: Tripadvisor,
     description:
-      "A personal portfolio website showcasing projects, skills, and contact information.",
-    link: "",
-
-    technologies: ["HTML", "CSS", "React", "Bootstrap"],
+      "J'ai créé un clone de l'application TripAdvisor avec un carousel de photos ainsi qu'un envoi automatisé de mails",
+    link: "https://project-tripadvisor-clone.netlify.app",
+    technologies: ["Node.js", "Express", "HTML", "CSS", "Javascript"],
   },
   {
-    title: "Blogging Platform",
+    title: "Vinted",
+    image: Vinted,
     description:
-      "A platform for creating and publishing blog posts, with features like rich text editing, commenting, and user profiles.",
-    link: "",
-
-    technologies: ["HTML", "CSS", "Vue.js", "Express", "mySQL"],
+      "J'ai créé un clone de l'application Vinted avec la possibilité d'inscription et de connexion grâce au backend, la publication d'annonce, une barre de recherche, un moyen de paiement grâce à stipe et la possibilité d'upload de photos.",
+    link: "https://project-vinted-clone.netlify.app",
+    technologies: ["Node.js", "Express", "HTML", "CSS", "React"],
+  },
+  {
+    title: "MVP - Deuce Padel",
+    image: Padel,
+    description:
+      "Au sein d'une équipe de 4, j'ai pu en 2 semaines créé une application mobile de mise en contact de joueurs de Padel avec Expo depuis un Figma. J'ai notamment pû gérer la partie de la gestion de l'authentification avec un système de context, la création d'un hook personnalisée pour la validation du formulaire, la création d'une liste de composants dynamiques et réutilisable (buttons, card, input, checkbox, modal...), mais aussi la configuration des appels API avec le backend que nous avons créé et la gestions des données avec des hooks (useEffect, useState).",
+    technologies: ["React Native", "CSS", "Figma", "Node.js", "Express"],
   },
 ];
 
 export const CONTACT = {
-  address: "767 Fifth Avenue, New York, NY 10153 ",
-  phoneNo: "+12 4555 666 00 ",
-  email: "me@example.com",
+  address: "4 rue auguste chabrières 75015 Paris ",
+  email: "lucie.helias.dev@gmail.com",
 };

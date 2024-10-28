@@ -1,23 +1,14 @@
 import { PROJECTS } from "../constants";
 
+import { FaLink } from "react-icons/fa6";
+
 const Projects = () => {
   return (
     <div>
-      <h1 className="my-20 text-center text-4xl">Mes projects</h1>
+      <h1 className="my-20 text-center text-4xl">Mes projets</h1>
       <div>
         {PROJECTS.map((project, index) => (
           <div key={index} className="mb-8 flex flex-wrap lg:justify-center">
-            {project.image && (
-              <div className="w-full lg:w-1/4">
-                <img
-                  src={project.image}
-                  alt={project.title}
-                  width={150}
-                  height={150}
-                  className="mb-6 rounded"
-                />
-              </div>
-            )}
             <div
               className={`w-full max-w-xl ${
                 project.image ? "lg:w-3/4" : "lg:w-full"
@@ -25,7 +16,16 @@ const Projects = () => {
             >
               <h2 className="mb-2 font-semibold">{project.title}</h2>
               <p className="mb-4 text-neutral-400">{project.description}</p>
-              <p className="mb-4 text-neutral-600">{project.link}</p>
+              {project.link && (
+                <a
+                  href={project.link}
+                  target="_blank"
+                  className="flex gap-2 items-center text-blue-500 mb-4"
+                >
+                  <FaLink /> Découvrir le site {project.title}
+                </a>
+              )}
+
               {project.technologies.map((tech, index) => (
                 <span
                   key={index}
@@ -35,6 +35,23 @@ const Projects = () => {
                 </span>
               ))}
             </div>
+            {project.image && (
+              <div className="w-full lg:w-1/4 ">
+                <a
+                  href={project.link}
+                  target="_blank"
+                  className="flex gap-2 items-center text-blue-500 mb-4"
+                >
+                  <img
+                    src={project.image}
+                    alt={project.title}
+                    width={300}
+                    height={200}
+                    className="mt-6 rounded overflow-scroll ml-10"
+                  />
+                </a>
+              </div>
+            )}
           </div>
         ))}
       </div>
