@@ -12,7 +12,7 @@ import { RiJavascriptLine } from "react-icons/ri";
 
 const Technologies = () => {
   return (
-    <div>
+    <div className="lg:my-80">
       <h1 className="my-20 text-center text-4xl font-light">Technologies</h1>
       <div className="flex flex-wrap items-center justify-center gap-8 ">
         <div className="border-2 border-neutral-400 rounded-2xl p-2">
