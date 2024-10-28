@@ -64,7 +64,7 @@ const Projects = () => {
                     alt={project.title}
                     width={300}
                     height={200}
-                    className="mt-6 rounded overflow-scroll ml-10"
+                    className="mt-6 rounded overflow-scroll ml-10 object-cover"
                   />
                 </a>
               </motion.div>

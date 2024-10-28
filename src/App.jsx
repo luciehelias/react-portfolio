@@ -5,7 +5,6 @@ import Header from "./assets/components/Header";
 import Technologies from "./assets/components/Technologies";
 import Projects from "./assets/components/Projects";
 import Contact from "./assets/components/Contact";
-import Navbar from "./assets/components/Navbar";
 
 const App = () => {
   return (
@@ -19,7 +18,6 @@ const App = () => {
       {/* fin du background */}
       <div className="container mx-auto px-8">
         <Header />
-        <Navbar />
         <Hero />
         <About />
         <Technologies />
