@@ -1,7 +1,7 @@
 import { FaLinkedin } from "react-icons/fa";
 import { FaGithub } from "react-icons/fa";
 
-const Navbar = () => {
+const Header = () => {
   return (
     <nav className="flex items-center justify-between py-6 ">
       <h1 className="text-4xl font-medium">Mon portfolio</h1>
@@ -17,4 +17,4 @@ const Navbar = () => {
   );
 };
 
-export default Navbar;
+export default Header;

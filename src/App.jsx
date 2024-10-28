@@ -1,7 +1,7 @@
 import About from "./assets/components/About";
 import Experience from "./assets/components/Experience";
 import Hero from "./assets/components/Hero";
-import Navbar from "./assets/components/Navbar";
+import Header from "./assets/components/Header";
 import Technologies from "./assets/components/Technologies";
 import Projects from "./assets/components/Projects";
 import Contact from "./assets/components/Contact";
@@ -18,7 +18,7 @@ const App = () => {
       </div>
       {/* fin du background */}
       <div className="container mx-auto px-8">
-        <Navbar />
+        <Header />
         <Hero />
         <About />
         <Technologies />
