@@ -4,6 +4,8 @@ import Hero from "./assets/components/Hero";
 import Navbar from "./assets/components/Navbar";
 import Technologies from "./assets/components/Technologies";
 import Projects from "./assets/components/Projects";
+import Contact from "./assets/components/Contact";
+import { useState } from "react";
 
 const App = () => {
   return (
@@ -22,6 +24,7 @@ const App = () => {
         <Technologies />
         <Projects />
         <Experience />
+        <Contact />
       </div>
     </div>
   );

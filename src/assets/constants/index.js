@@ -101,8 +101,3 @@ export const PROJECTS = [
     technologies: ["React Native", "CSS", "Figma", "Node.js", "Express"],
   },
 ];
-
-export const CONTACT = {
-  address: "4 rue auguste chabrières 75015 Paris ",
-  email: "lucie.helias.dev@gmail.com",
-};
