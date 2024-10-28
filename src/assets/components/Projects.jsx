@@ -2,14 +2,26 @@ import { PROJECTS } from "../constants";
 
 import { FaLink } from "react-icons/fa6";
 
+import { motion } from "framer-motion";
+
 const Projects = () => {
   return (
     <div>
-      <h1 className="my-20 text-center text-4xl">Mes projets</h1>
+      <motion.h1
+        whileInView={{ opacity: 1, x: 0 }}
+        initial={{ opacity: 0, x: -100 }}
+        transition={{ duration: 1.5 }}
+        className="my-20 text-center text-4xl"
+      >
+        Mes projets
+      </motion.h1>
       <div>
         {PROJECTS.map((project, index) => (
           <div key={index} className="mb-8 flex flex-wrap lg:justify-center">
-            <div
+            <motion.div
+              whileInView={{ opacity: 1, x: 0 }}
+              initial={{ opacity: 0, x: -100 }}
+              transition={{ duration: 1 }}
               className={`w-full max-w-xl ${
                 project.image ? "lg:w-3/4" : "lg:w-full"
               }`}
@@ -34,9 +46,14 @@ const Projects = () => {
                   {tech}
                 </span>
               ))}
-            </div>
+            </motion.div>
             {project.image && (
-              <div className="w-full lg:w-1/4 ">
+              <motion.div
+                whileInView={{ opacity: 1, x: 0 }}
+                initial={{ opacity: 0, x: 100 }}
+                transition={{ duration: 1 }}
+                className="w-full lg:w-1/4 "
+              >
                 <a
                   href={project.link}
                   target="_blank"
@@ -50,7 +67,7 @@ const Projects = () => {
                     className="mt-6 rounded overflow-scroll ml-10"
                   />
                 </a>
-              </div>
+              </motion.div>
             )}
           </div>
         ))}

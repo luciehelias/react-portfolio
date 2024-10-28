@@ -1,6 +1,8 @@
 import React, { useState } from "react";
 import Swal from "sweetalert2";
 
+import { motion } from "framer-motion";
+
 const Contact = () => {
   const [result, setResult] = useState("");
   const [honeypot, setHoneypot] = useState("");
@@ -39,8 +41,18 @@ const Contact = () => {
 
   return (
     <div className="lg:my-36">
-      <h1 className="my-10 text-center text-4xl">Contactez-moi</h1>
-      <form
+      <motion.h1
+        whileInView={{ opacity: 1, x: 0 }}
+        initial={{ opacity: 0, x: -100 }}
+        transition={{ duration: 1.5 }}
+        className="my-10 text-center text-4xl"
+      >
+        Contactez-moi
+      </motion.h1>
+      <motion.form
+        whileInView={{ opacity: 1, x: 0 }}
+        initial={{ opacity: 0, x: -100 }}
+        transition={{ duration: 1.5 }}
         className="flex flex-col items-center m-auto w-full lg:w-1/2 px-4"
         onSubmit={onSubmit}
       >
@@ -90,7 +102,7 @@ const Contact = () => {
             Contactez-moi
           </button>
         </div>
-      </form>
+      </motion.form>
     </div>
   );
 };
