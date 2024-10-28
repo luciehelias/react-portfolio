@@ -40,7 +40,7 @@ const Contact = () => {
   };
 
   return (
-    <div className="lg:my-36">
+    <div id="contact" className="lg:my-44">
       <motion.h1
         whileInView={{ opacity: 1, x: 0 }}
         initial={{ opacity: 0, x: -100 }}

@@ -5,11 +5,11 @@ import Header from "./assets/components/Header";
 import Technologies from "./assets/components/Technologies";
 import Projects from "./assets/components/Projects";
 import Contact from "./assets/components/Contact";
-import { useState } from "react";
+import Navbar from "./assets/components/Navbar";
 
 const App = () => {
   return (
-    <div className="overflow-x-hidden text-gray-800 antialiased selection:bg-violet-100 selection:text-violet-800">
+    <div className="overflow-x-hidden text-gray-800 antialiased selection:bg-violet-100 selection:text-violet-800 relative">
       <div className="fixed top-0 -z-10 h-full w-full">
         {/* En dessous il y a le background que je dois changer plus tard */}
         <div className="absolute top-0 -z-10 size-full bg-white ">
@@ -19,6 +19,7 @@ const App = () => {
       {/* fin du background */}
       <div className="container mx-auto px-8">
         <Header />
+        <Navbar />
         <Hero />
         <About />
         <Technologies />
