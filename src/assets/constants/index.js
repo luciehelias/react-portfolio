@@ -73,7 +73,7 @@ export const PROJECTS = [
     title: "Marvel",
     image: Marvel,
     description:
-      "J'ai créé une application Marvel où l'utilisateur peut chercher grâce à la barre de recherche ses comics favoris ou ses personnages favoris et les mettre dans ses favoris",
+      "J'ai créé une application Marvel où l'utilisateur peut chercher grâce à la barre de recherche ses comics favoris ou ses personnages favoris et les mettre dans ses favoris.",
     link: "https://project-marvel-react.netlify.app",
     technologies: ["HTML", "CSS", "React", "Node.js", "Express"],
   },
@@ -81,7 +81,7 @@ export const PROJECTS = [
     title: "TripAdvisor",
     image: Tripadvisor,
     description:
-      "J'ai créé un clone de l'application TripAdvisor avec un carousel de photos ainsi qu'un envoi automatisé de mails",
+      "J'ai créé un clone de l'application TripAdvisor avec un carousel de photos ainsi qu'un envoi automatisé de mails.",
     link: "https://project-tripadvisor-clone.netlify.app",
     technologies: ["Node.js", "Express", "HTML", "CSS", "Javascript"],
   },
