@@ -6,13 +6,13 @@ export const ABOUT_TEXT = `Développeuse full stack en début de carrière, j’
 
 Toujours prête à collaborer et à m’adapter, je suis enthousiaste à l’idée de contribuer à des projets stimulants, en m’efforçant d’améliorer chaque ligne de code pour offrir des solutions de qualité.`;
 
-import FrontendMentor1 from "../images/frontend mentor 1.png";
-import FrontendMentor2 from "../images/frontend mentor 2.png";
-import FrontendMentor3 from "../images/frontend mentor 3.png";
-import Marvel from "../images/project marvel .png";
-import Tripadvisor from "../images/project tripadvisor.png";
-import Vinted from "../images/projet Vinted.png";
-import Padel from "../images/project deuce padel 1.png";
+import FrontendMentor1 from "../images/frontend-mentor-1.png";
+import FrontendMentor2 from "../images/frontend-mentor-2.png";
+import FrontendMentor3 from "../images/frontend-mentor-3.png";
+import Marvel from "../images/project-marvel.png";
+import Tripadvisor from "../images/project-tripadvisor.png";
+import Vinted from "../images/projet-Vinted.png";
+import Padel from "../images/project-deuce-padel-1.png";
 
 export const EXPERIENCES = [
   {

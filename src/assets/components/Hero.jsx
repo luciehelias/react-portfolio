@@ -3,7 +3,7 @@ import { motion } from "framer-motion";
 import { HERO_CONTENT } from "../constants";
 import { MOTIVATION } from "../constants";
 
-import profilePic from "../images/Lucie Hélias.jpg";
+import profilePic from "../images/Lucie-Helias.jpg";
 
 const Hero = () => {
   return (
