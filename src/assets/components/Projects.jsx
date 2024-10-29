@@ -27,9 +27,9 @@ const Projects = () => {
         Mes projets
       </motion.h1>
       <motion.p
-        initial={{ x: -100, opacity: 0 }}
-        animate={{ x: 0, opacity: 1 }}
-        transition={{ duration: 0.5, delay: 1.6 }}
+        whileInView={{ opacity: 1, x: 0 }}
+        initial={{ opacity: 0, x: -100 }}
+        transition={{ duration: 1.5 }}
         className="font-light tracking-tighter whitespace-pre-line lg:justify-center mb-32 text-xl lg:px-50"
       >
         Chaque projet me permet de produire{" "}
