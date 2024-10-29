@@ -4,7 +4,7 @@ import profilePic from "../images/Lucie-Helias.png";
 
 const Hero = () => {
   return (
-    <div className="w-full lg:my-36">
+    <div className="w-full lg:my-36 " id="portfolio">
       <div className="flex flex-wrap items-end mt-20">
         <div className=" w-full lg:w-2/3 lg:p-10">
           <div className="flex flex-col items-center lg:items-start">
