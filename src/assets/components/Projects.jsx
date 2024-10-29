@@ -67,7 +67,7 @@ const Projects = () => {
                   target="_blank"
                   className="flex gap-2 items-center text-blue-700 mb-2 lg:text-sm"
                 >
-                  <FaLink /> Découvrir le site {project.title}
+                  <FaLink /> Découvrir mon projet {project.title}
                 </a>
               )}
 

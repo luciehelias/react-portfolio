@@ -114,7 +114,7 @@ export const PROJECTS = [
       FrontendMentor7,
     },
     description:
-      "J'ai pu réaliser différents challenges en partant de zéro en essayant de recopier les images données ou en suivant un Figma (si celui-ci était donné). J'ai actuellement fait 9 challenges.",
+      "J'ai pu réaliser différents challenges frontend en partant de zéro en essayant de recopier les images données ou en suivant un Figma (si celui-ci était donné). J'ai actuellement fait 9 challenges.",
     link: "https://www.frontendmentor.io/profile/luciehelias",
     technologies: ["HTML", "CSS", "Javascript"],
   },
