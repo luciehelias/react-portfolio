@@ -1,6 +1,10 @@
 import FrontendMentor1 from "../images/frontend-mentor-1.png";
 import FrontendMentor2 from "../images/frontend-mentor-2.png";
 import FrontendMentor3 from "../images/frontend-mentor-3.png";
+import FrontendMentor4 from "../images/frontend-mentor-4.png";
+import FrontendMentor5 from "../images/frontend-mentor-5.png";
+import FrontendMentor6 from "../images/frontend-mentor-6.png";
+import FrontendMentor7 from "../images/frontend-mentor-7.png";
 import Marvel from "../images/project-marvel.png";
 import Tripadvisor from "../images/project-tripadvisor.png";
 import Vinted from "../images/projet-Vinted.png";
@@ -71,7 +75,15 @@ export const EXPERIENCES = [
 export const PROJECTS = [
   {
     title: "Frontend Mentor",
-    image: FrontendMentor1,
+    image: {
+      FrontendMentor1,
+      FrontendMentor2,
+      FrontendMentor3,
+      FrontendMentor4,
+      FrontendMentor5,
+      FrontendMentor6,
+      FrontendMentor7,
+    },
     description:
       "J'ai pu réaliser différents challenges en partant de zéro en essayent de recopier les images données ou en suivant un Figma si celui-ci était donné. J'ai actuellement fait 9 challenges.  ",
     link: "https://www.frontendmentor.io/profile/luciehelias",
