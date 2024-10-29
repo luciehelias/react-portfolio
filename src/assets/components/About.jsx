@@ -15,7 +15,7 @@ const About = () => {
               whileInView={{ opacity: 1, x: 0 }}
               initial={{ opacity: 0, x: -100 }}
               transition={{ duration: 0.5, delay: 1 }}
-              className="rounded-2xl h-80 object-cover"
+              className="rounded-2xl h-80 object-cover "
               src={about}
               alt="photo"
             />
@@ -27,31 +27,29 @@ const About = () => {
               whileInView={{ opacity: 1, x: 0 }}
               initial={{ opacity: 0, x: 100 }}
               transition={{ duration: 0.5, delay: 1 }}
-              className="my-4 max-w-xl py-6 font-light whitespace-pre-line text-justify text-xl"
+              className="my-4 max-w-xl py-6 font-light whitespace-pre-line text-xl"
             >
+              Développeuse full stack en début de carrière, j’ai découvert une
+              véritable passion pour{" "}
               <span className="font-bold text-purple-800">
-                Développeuse full stack
-              </span>{" "}
-              en début de carrière, j’ai découvert une véritable passion pour la
-              création d’applications web dynamiques et accessibles. Ayant suivi
-              une{" "}
-              <span className="font-bold text-purple-800">
-                formation intensive
+                la création d’applications web dynamiques et accessibles
               </span>
-              , j’ai acquis des compétences en JavaScript, React, Node.js, et
-              MongoDB, que j’ai eu l’occasion d’appliquer sur des projets
-              concrets.{" "}
+              . Ayant suivi une formation intensive, j’ai acquis des compétences
+              en JavaScript, React, Node.js, et MongoDB, que j’ai eu l’occasion
+              d’appliquer sur des projets concrets.{" "}
               <span className="font-bold text-purple-800">
                 Curieuse et motivée
-              </span>{" "}
-              Curieuse et motivée, j’aime apprendre de nouvelles technologies et
-              relever des défis techniques pour élargir mes compétences.
+              </span>
+              , j’aime apprendre de nouvelles technologies et relever des défis
+              techniques pour élargir mes compétences.
               <br />
-              Toujours prête à collaborer et à m’adapter, je suis{" "}
-              <span className="font-bold text-purple-800">enthousiaste</span> à
-              l’idée de contribuer à des projets stimulants, en m’efforçant
-              d’améliorer chaque ligne de code pour offrir des solutions de
-              qualité.
+              Toujours prête à collaborer et à m’adapter, je suis enthousiaste à
+              l’idée de{" "}
+              <span className="font-bold text-purple-800">
+                contribuer à des projets stimulants
+              </span>
+              , en m’efforçant d’améliorer chaque ligne de code pour offrir des
+              solutions de qualité.
             </motion.p>
           </div>
         </div>

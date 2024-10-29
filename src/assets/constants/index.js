@@ -37,7 +37,7 @@ export const EXPERIENCES = [
     role: "MVP : Dévéloppeuse Full Stack",
     company: "Start-up : Deuce Padel",
     description: `
-    Au sein d'une équipe de 4, j'ai pu réaliser en 2 semaines le MVP (minimum viable product) d'une application mobile de mise en contact de joueurs de Padel avec Expo depuis un Figma. J'ai notamment pu gérer la partie de la gestion de l'authentification avec un système de context, la création d'un hook personnalisée pour la validation du formulaire, la création d'une liste de composants dynamiques et réutilisable (buttons, card, input, checkbox, modal...), mais aussi la configuration des appels API avec le backend que nous avons créé et la gestion des données avec des hooks (useEffect, useState).
+    Au sein d'une équipe de 4, j'ai pu réaliser en 2 semaines le MVP (minimum viable product) d'une application mobile de mise en contact de joueurs de Padel avec Expo depuis un Figma. J'ai eu le rôle de Product Owner, où j'ai pu en amont du projet, écrire les stories et par la suite animer les dailies. J'ai notamment pu gérer la partie de la gestion de l'authentification avec un système de context, la création d'un hook personnalisée pour la validation du formulaire, la création d'une liste de composants dynamiques et réutilisable (buttons, card, input, checkbox, modal...), mais aussi la configuration des appels API avec le backend que nous avons créé et la gestion des données avec des hooks (useEffect, useState).
     `,
     technologies: [
       "HTML",

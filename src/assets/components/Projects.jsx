@@ -25,6 +25,19 @@ const Projects = () => {
       >
         Mes projets
       </motion.h1>
+      <motion.p
+        initial={{ x: -100, opacity: 0 }}
+        animate={{ x: 0, opacity: 1 }}
+        transition={{ duration: 0.5, delay: 1.6 }}
+        className="font-light tracking-tighter whitespace-pre-line text-justify text-xl"
+      >
+        Chaque projet me permet de produire un code propre, testé et
+        réutilisable. Autodidacte, je continue de renforcer mes connaissances en
+        explorant de nouvelles technologies et en m’investissant dans des
+        plateformes de formation comme{" "}
+        <span className="font-bold text-purple-800">Frontend Mentor</span>
+        ou <span className="font-bold text-purple-800">OpenClassrooms</span>.
+      </motion.p>
       <div>
         {PROJECTS.map((project, index) => (
           <div key={index} className="mb-8 flex flex-wrap lg:justify-center">
