@@ -32,7 +32,7 @@ const Hero = () => {
               className="my-2 max-w-xl py-6 font-light tracking-tighter whitespace-pre-line text-xl"
             >
               Développeuse passionnée et rigoureuse, je me suis spécialisée dans
-              les technologies front-end et back-end à travers des langages
+              les technologies Front-End et Back-End à travers des langages
               comme{" "}
               <span className="font-bold text-purple-800">
                 JavaScript, React, Node.js et Express.
@@ -58,7 +58,7 @@ const Hero = () => {
             </motion.p>
           </div>
         </div>
-        {/* <div className="w-full lg:w-1/3 lg:p-8">
+        <div className="w-full lg:w-1/3 lg:p-8">
           <div className="flex justify-center">
             <motion.img
               initial={{ x: 100, opacity: 0 }}
@@ -66,10 +66,10 @@ const Hero = () => {
               transition={{ duration: 0.5, delay: 1.8 }}
               src={profilePic}
               alt=" photo de profil"
-              className="rounded-2xl h-80 my-10 object-cover"
+              className="rounded-2xl h-90 my-10 object-cover"
             />
           </div>
-        </div> */}
+        </div>
       </div>
     </div>
   );

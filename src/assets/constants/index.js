@@ -9,10 +9,18 @@ import Marvel from "../images/project-marvel.png";
 import Tripadvisor from "../images/project-tripadvisor.png";
 import Vinted from "../images/projet-Vinted.png";
 
+import Learning from "../images/learning.jpeg";
+import Coffee from "../images/coffee.jpeg";
+import Reacteur from "../images/reacteur.png";
+import Job from "../images/job.png";
+import Marketing from "../images/marketing.jpg";
+import Padel from "../images/padel.jpeg";
+
 export const EXPERIENCES = [
   {
     year: "Maintenant",
-    role: " Recherche Stage ou Alternance : Dévéloppeuse Full Stack",
+    role: " Recherche Stage/Alternance : Dévéloppeuse Full Stack",
+    image: Job,
     company: "?",
     description:
       "Disponible de suite pour intégrer une entreprise et ainsi évoluer aux côtés de professionnels tout en apportant mon énergie et mes compétences à vos projets.",
@@ -20,6 +28,7 @@ export const EXPERIENCES = [
   {
     year: "2024 - Maintenant",
     role: "Formation : Dévéloppeuse Full Stack",
+    image: Learning,
     company: "Autodidacte",
     description:
       "Je me forme de manière autodidacte sur différentes plateformes telles que Frontend Mentor, OpenClassrooms, Youtube ou encore en suivant des formations payantes de développeurs tels que Traversy Media.",
@@ -35,9 +44,10 @@ export const EXPERIENCES = [
   {
     year: "Septembre 2024",
     role: "MVP : Dévéloppeuse Full Stack",
+    image: Padel,
     company: "Start-up : Deuce Padel",
     description: `
-    Au sein d'une équipe de 4, j'ai pu réaliser en 2 semaines le MVP (minimum viable product) d'une application mobile de mise en contact de joueurs de Padel avec Expo depuis un Figma. J'ai eu le rôle de Product Owner, où j'ai pu en amont du projet, écrire les stories et par la suite animer les dailies. J'ai notamment pu gérer la partie de la gestion de l'authentification avec un système de context, la création d'un hook personnalisée pour la validation du formulaire, la création d'une liste de composants dynamiques et réutilisable (buttons, card, input, checkbox, modal...), mais aussi la configuration des appels API avec le backend que nous avons créé et la gestion des données avec des hooks (useEffect, useState).
+    Au sein d'une équipe de 4, j'ai pu réaliser en 2 semaines le MVP (minimum viable product) d'une application mobile de mise en contact de joueurs de Padel avec Expo depuis un Figma. En plus de mon rôle de développeuse, j'ai également eu le rôle de Product Owner où j'ai pu en amont du projet, écrire les stories et par la suite animer les dailies. J'ai notamment pu gérer la partie de la gestion de l'authentification avec un système de context, la création d'un hook personnalisée pour la validation du formulaire, la création d'une liste de composants dynamiques et réutilisable (buttons, card, input, checkbox, modal...), mais aussi la configuration des appels API avec le backend que nous avons créé et la gestion des données avec des hooks (useEffect, useState).
     `,
     technologies: [
       "HTML",
@@ -51,13 +61,15 @@ export const EXPERIENCES = [
   {
     year: "Juillet 2024 - Octobre 2024",
     role: "Formation : Développeuse Full Stack",
+    image: Reacteur,
     company: "Le Reacteur",
-    description: `J'ai suivi une formation intense chez Le Reacteur qui est un bootcamp principalement sur React et React Native. J'ai pu travailler sur différents projets utilisant des stacks différentes. À la fin de la formation, j'ai également créé une application full stack qui reprendre les codes d'une grande entreprise de Fast Food. `,
+    description: `J'ai suivi une formation intense chez Le Reacteur qui est un bootcamp principalement sur React et React Native. J'ai pu travailler sur différents projets utilisant des stacks différentes. À la fin de la formation, j'ai également créé une application full stack qui reprend les codes d'une grande entreprise de Fast Food. `,
     technologies: ["React Native", "CSS", "Figma", "Node.js", "Express"],
   },
   {
     year: " Mars 2017 - Maintenant ",
     role: "Barista Freelance / Manager Barista ",
+    image: Coffee,
     company: "Nouvelle-Zélande, Australie, France",
     description:
       "En tant que Freelance, je travaille dans plusieurs cafés parisiens de manière ponctuel ou régulière comme chez Noir Coffee Shop. J'ai pû pendant 3 ans travailler à l'étranger et devenir manager d'équipe. J'ai dû former et recruter des nouveaux employés internationaux, mais également participer activement au développement de la stratégie commerciale d'un restaurant et faire ainsi 30% de CA de plus que les années précédentes. ",
@@ -65,8 +77,9 @@ export const EXPERIENCES = [
   {
     year: "Mars 2021 - Juin 2021",
     role: "Assistante communication et marketing",
-    company: "Morjana Cosmetiques",
-    description: `J'ai créé un site e-commerce avec le " CMS Wix pour permettre à l'entreprise de partir sur un positionnement en B2C en plus de leur positionnement en B2B. Mais finalement après un changement de la direction, le projet n'a pas vu le jour. `,
+    image: Marketing,
+    company: "Morjana Cosmétiques",
+    description: `J'ai créé un site e-commerce avec le CMS Wix pour permettre à l'entreprise de partir sur un positionnement en B2C en plus de leur positionnement en B2B. Mais finalement après un changement de la direction, le projet n'a pas vu le jour. `,
   },
 ];
 
@@ -83,7 +96,7 @@ export const PROJECTS = [
       FrontendMentor7,
     },
     description:
-      "J'ai pu réaliser différents challenges en partant de zéro en essayent de recopier les images données ou en suivant un Figma si celui-ci était donné. J'ai actuellement fait 9 challenges.",
+      "J'ai pu réaliser différents challenges en partant de zéro en essayant de recopier les images données ou en suivant un Figma (si celui-ci était donné). J'ai actuellement fait 9 challenges.",
     link: "https://www.frontendmentor.io/profile/luciehelias",
     technologies: ["HTML", "CSS", "Javascript"],
   },
@@ -113,7 +126,7 @@ export const PROJECTS = [
     githubBackend: "https://github.com/luciehelias/Vinted",
     githubFrontend: "https://github.com/luciehelias/Vinted-Frontend",
     description:
-      "J'ai créé un clone de l'application Vinted avec la possibilité d'inscription et de connexion grâce au backend, la publication d'annonce, une barre de recherche, un moyen de paiement grâce à stipe et la possibilité d'upload de photos.",
+      "J'ai créé un clone de l'application Vinted avec la possibilité d'inscription et de connexion grâce au backend, la publication d'annonce, une barre de recherche, un moyen de paiement grâce à stripe et la possibilité d'upload de photos.",
     link: "https://project-vinted-clone.netlify.app",
     technologies: ["Node.js", "Express", "HTML", "CSS", "React"],
   },

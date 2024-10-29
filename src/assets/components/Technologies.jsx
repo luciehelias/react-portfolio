@@ -1,3 +1,4 @@
+import React, { useState } from "react";
 import { RiReactjsLine } from "react-icons/ri";
 import { TbBrandReactNative } from "react-icons/tb";
 import { SiExpress } from "react-icons/si";
@@ -7,9 +8,7 @@ import { SiTailwindcss } from "react-icons/si";
 import { SiTypescript } from "react-icons/si";
 import { FaNodeJs } from "react-icons/fa";
 import { SiMongodb } from "react-icons/si";
-
 import { RiJavascriptLine } from "react-icons/ri";
-
 import { motion } from "framer-motion";
 
 const iconVariants = (duration) => ({
@@ -26,6 +25,39 @@ const iconVariants = (duration) => ({
 });
 
 const Technologies = () => {
+  const [hoveredIcon, setHoveredIcon] = useState(null);
+
+  const technologies = [
+    {
+      icon: <RiJavascriptLine className="text-7xl text-yellow-400" />,
+      name: "JavaScript",
+    },
+    { icon: <FaHtml5 className="text-7xl text-orange-500" />, name: "HTML5" },
+    { icon: <FaCss3Alt className="text-7xl text-sky-600" />, name: "CSS3" },
+    {
+      icon: <SiTypescript className="text-7xl text-sky-600" />,
+      name: "TypeScript",
+    },
+    {
+      icon: <SiTailwindcss className="text-7xl text-blue-400" />,
+      name: "Tailwind CSS",
+    },
+    {
+      icon: <RiReactjsLine className="text-7xl text-cyan-400" />,
+      name: "React",
+    },
+    {
+      icon: <TbBrandReactNative className="text-7xl text-cyan-400" />,
+      name: "React Native",
+    },
+    {
+      icon: <SiMongodb className="text-7xl text-green-400" />,
+      name: "MongoDB",
+    },
+    { icon: <FaNodeJs className="text-7xl text-green-400" />, name: "Node.js" },
+    { icon: <SiExpress className="text-7xl text-gray-400" />, name: "Express" },
+  ];
+
   return (
     <div className="lg:my-24">
       <motion.h1
@@ -42,86 +74,24 @@ const Technologies = () => {
         transition={{ duration: 1.5 }}
         className="flex flex-wrap items-center justify-center gap-8"
       >
-        <motion.div
-          variants={iconVariants(2.5)}
-          initial="initial"
-          animate="animate"
-          className="border-2 border-neutral-400 rounded-2xl p-2"
-        >
-          <RiJavascriptLine className="text-7xl text-yellow-400" />
-        </motion.div>
-        <motion.div
-          variants={iconVariants(3)}
-          initial="initial"
-          animate="animate"
-          className="border-2 border-neutral-400 rounded-2xl p-2"
-        >
-          <FaHtml5 className="text-7xl text-orange-500" />
-        </motion.div>
-        <motion.div
-          variants={iconVariants(4)}
-          initial="initial"
-          animate="animate"
-          className="border-2 border-neutral-400 rounded-2xl p-2"
-        >
-          <FaCss3Alt className="text-7xl text-sky-600" />
-        </motion.div>
-        <motion.div
-          variants={iconVariants(3)}
-          initial="initial"
-          animate="animate"
-          className="border-2 border-neutral-400 rounded-2xl p-2"
-        >
-          <SiTypescript className="text-7xl text-sky-600" />
-        </motion.div>
-        <motion.div
-          variants={iconVariants(2.5)}
-          initial="initial"
-          animate="animate"
-          className="border-2 border-neutral-400 rounded-2xl p-2"
-        >
-          <SiTailwindcss className="text-7xl text-blue-400" />
-        </motion.div>
-        <motion.div
-          variants={iconVariants(3)}
-          initial="initial"
-          animate="animate"
-          className="border-2 border-neutral-400 rounded-2xl p-2"
-        >
-          <RiReactjsLine className="text-7xl text-cyan-400" />
-        </motion.div>
-        <motion.div
-          variants={iconVariants(4)}
-          initial="initial"
-          animate="animate"
-          className="border-2 border-neutral-400 rounded-2xl p-2"
-        >
-          <TbBrandReactNative className="text-7xl text-cyan-400" />
-        </motion.div>
-        <motion.div
-          variants={iconVariants(3)}
-          initial="initial"
-          animate="animate"
-          className="border-2 border-neutral-400 rounded-2xl p-2"
-        >
-          <SiMongodb className="text-7xl text-green-400" />
-        </motion.div>
-        <motion.div
-          variants={iconVariants(2.5)}
-          initial="initial"
-          animate="animate"
-          className="border-2 border-neutral-400 rounded-2xl p-2"
-        >
-          <FaNodeJs className="text-7xl text-green-400" />
-        </motion.div>
-        <motion.div
-          variants={iconVariants(3)}
-          initial="initial"
-          animate="animate"
-          className="border-2 border-neutral-400 rounded-2xl p-2"
-        >
-          <SiExpress className="text-7xl text-grey-400" />
-        </motion.div>
+        {technologies.map((tech, index) => (
+          <motion.div
+            key={index}
+            variants={iconVariants(index + 2)}
+            initial="initial"
+            animate="animate"
+            className="relative border-2 border-neutral-400 rounded-2xl p-4 flex flex-col items-center"
+            onMouseEnter={() => setHoveredIcon(tech.name)}
+            onMouseLeave={() => setHoveredIcon(null)}
+          >
+            {tech.icon}
+            {hoveredIcon === tech.name && (
+              <span className="absolute left-1/2 top-24 -translate-x-1/2 text-sm font-semibold text-neutral-800 bg-white rounded-lg shadow-md p-1 mt-4">
+                {tech.name}
+              </span>
+            )}
+          </motion.div>
+        ))}
       </motion.div>
     </div>
   );

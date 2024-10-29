@@ -4,7 +4,7 @@ import { motion } from "framer-motion";
 
 const Experience = () => {
   return (
-    <div id="experiences">
+    <div id="experiences" className="pt-20 pb-4">
       <motion.h1
         whileInView={{ opacity: 1, x: 0 }}
         initial={{ opacity: 0, x: -100 }}
@@ -32,23 +32,35 @@ const Experience = () => {
               transition={{ duration: 1 }}
               className="w-full max-w-xl lg:w-3/4"
             >
-              <h2 className="mb-2 font-semibold lg:text-xl">
-                {experience.role} - {""}
-                <span className="text-sm text-purple-400 lg:text-xl">
-                  {experience.company}
-                </span>
-              </h2>
-              <p className="mb-4 text-neutral-500 lg:text-base text-justify">
+              <div className="flex gap-4 items-center">
+                {" "}
+                <img
+                  src={experience.image}
+                  alt={experience.role}
+                  width={30}
+                  // height={10}
+                />
+                <h2 className="mb-2 font-semibold lg:text-xl">
+                  {experience.role} - {""}
+                  <span className="text-sm text-purple-400 lg:text-xl">
+                    {experience.company}
+                  </span>
+                </h2>
+              </div>
+
+              <p className="mb-4 text-neutral-500 lg:text-base">
                 {experience.description}
               </p>
-              {experience.technologies?.map((tech, index) => (
-                <span
-                  key={index}
-                  className="mr-2 mt-4 rounded bg-pink-200 px-2 py-1 text-sm font-medium text-purple-800 "
-                >
-                  {tech}
-                </span>
-              ))}
+              <div className="flex flex-wrap gap-2">
+                {experience.technologies?.map((tech, index) => (
+                  <span
+                    key={index}
+                    className="rounded bg-pink-200 px-2 py-1 text-sm font-medium text-purple-800 "
+                  >
+                    {tech}
+                  </span>
+                ))}
+              </div>
             </motion.div>
           </div>
         ))}
