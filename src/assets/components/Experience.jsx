@@ -66,7 +66,7 @@ const Experience = () => {
                 {experience.competence?.map((competence, index) => (
                   <span
                     key={index}
-                    className="rounded bg-lime-400 px-2 py-1 text-sm font-medium text-purple-800 "
+                    className="rounded bg-lime-400 px-2 py-1 text-sm font-medium  "
                   >
                     {competence}
                   </span>

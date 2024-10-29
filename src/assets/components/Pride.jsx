@@ -47,7 +47,9 @@ const Future = () => {
               <span className="font-bold text-purple-800">Wattpad</span>, où
               leur soutien et leurs retours ont été une précieuse source de
               motivation et d’inspiration. Ensemble, mes deux romans cumulent
-              aujourd’hui près de 15 000 lectures.
+              aujourd’hui près de{" "}
+              <span className="font-bold text-purple-800">15 000 lectures</span>
+              .
             </motion.p>
             <motion.p
               whileInView={{ opacity: 1, x: 0 }}

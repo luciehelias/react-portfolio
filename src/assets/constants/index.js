@@ -59,6 +59,7 @@ export const EXPERIENCES = [
       "Typescript",
       "Tailwind",
     ],
+    competence: ["User Stories", "Sprint", "Methode Agile"],
   },
   {
     year: "Juillet 2024 - Octobre 2024",
@@ -88,8 +89,9 @@ export const EXPERIENCES = [
     role: "Assistante communication et marketing",
     image: Marketing,
     company: "Morjana Cosmétiques",
-    description: `J'ai créé un site e-commerce avec le CMS Wix pour permettre à l'entreprise de partir sur un positionnement en B2C en plus de leur positionnement en B2B. Mais finalement après un changement de la direction, le projet n'a pas vu le jour. `,
-    technologies: ["CMS"],
+    description: `J'ai créé un site e-commerce avec le CMS Wix pour permettre à l'entreprise de partir sur un positionnement en B2C en plus de leur positionnement en B2B. Finalement, après un changement de la direction, le projet n'a pas vu le jour. `,
+    technologies: ["CMS", "WIX", "UX/UI", "SEO"],
+    competence: ["Communication", "Planification"],
   },
   {
     year: "Septembre 2020 - Juillet 2021",
@@ -98,7 +100,7 @@ export const EXPERIENCES = [
     company: "Université de Rennes 1",
     description: `Pendant ma formation, j'ai pu être cheffe de projet sur un projet scientifique sur un pain à connotation santé, participer au concours U-cosmetics en créeant et en mettant en scène la communication marketing d'un Roll-on avec un baume rechargeable ou encore faire des analyses de marché et des études de cas marketing.`,
     technologies: ["R"],
-    competence: ["Communication", "Planification"],
+    competence: ["Présentation", "Gestion", "Marketing", "Leadership"],
   },
   {
     year: "Septembre 2013 - Juillet 2017",
@@ -107,6 +109,7 @@ export const EXPERIENCES = [
     company: "Université de Rennes 1",
     description: `Pendant ma formation, j'ai pu avoir des connaissance sur l'alimentation et ses répercusions sur la santé et faire des analyses statistiques biologiques, de biologies moléculaires et analytiques.`,
     technologies: ["R"],
+    competence: ["Précision", "Synthèse", "Statistiques", "Esprit critique"],
   },
 ];
 
