@@ -38,7 +38,7 @@ const Hero = () => {
               . Formée au sein du bootcamp{" "}
               <span className="font-bold text-purple-800">Le Reacteur</span>,
               j’ai eu l’opportunité de réaliser divers projets techniques, de la
-              création d'interfaces utilisateurs réactives à la construction de
+              création d'interface utilisateur réactive à la construction de
               serveurs back-end. Mes compétences incluent également
               l’intégration d’APIs, la gestion de bases de données, et la
               création d’applications mobiles en{" "}

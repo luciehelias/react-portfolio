@@ -117,7 +117,7 @@ const Projects = () => {
                     <img
                       src={project.image}
                       alt={project.title}
-                      className="mt-6 rounded overflow-hidden lg:ml-10 object-cover w-full h-64 lg:h-80"
+                      className="mt-6 rounded overflow-hidden lg:ml-10 object-cover w-full h-64 h-full"
                     />
                   </a>
                 )}
