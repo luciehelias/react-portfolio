@@ -6,6 +6,7 @@ import Technologies from "./assets/components/Technologies";
 import Projects from "./assets/components/Projects";
 import Contact from "./assets/components/Contact";
 import Future from "./assets/components/Future";
+import Footer from "./assets/components/Footer";
 
 const App = () => {
   return (
@@ -26,6 +27,7 @@ const App = () => {
         <Experience />
         <Contact />
       </div>
+      <Footer />
     </div>
   );
 };
