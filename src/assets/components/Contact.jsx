@@ -65,7 +65,9 @@ const Contact = () => {
           />
         </div>
         <div className="flex flex-col w-full">
-          <label className="my-4">Nom et Prénom</label>
+          <label className="my-4">
+            Nom et Prénom <span className="text-red-600">*</span>
+          </label>
           <input
             type="text"
             name="name"
@@ -75,7 +77,9 @@ const Contact = () => {
           />
         </div>
         <div className="flex flex-col w-full">
-          <label className="my-4">Email</label>
+          <label className="my-4">
+            Email <span className="text-red-600">*</span>
+          </label>
           <input
             type="email"
             placeholder="Adresse email"
@@ -85,7 +89,18 @@ const Contact = () => {
           />
         </div>
         <div className="flex flex-col w-full">
-          <label className="my-4">Votre message</label>
+          <label className="my-4">Entreprise</label>
+          <input
+            type="name"
+            placeholder="Nom de votre entreprise"
+            name="entreprise"
+            className="my-2 p-2 border border-zinc-400 rounded-xl"
+          />
+        </div>
+        <div className="flex flex-col w-full">
+          <label className="my-4">
+            Votre message <span className="text-red-600">*</span>
+          </label>
           <textarea
             type="message"
             placeholder="Ecrivez votre message ici..."

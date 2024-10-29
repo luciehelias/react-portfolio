@@ -75,6 +75,13 @@ export const EXPERIENCES = [
     company: "Nouvelle-Zélande, Australie, France",
     description:
       "En tant que Freelance, je travaille dans plusieurs cafés parisiens de manière ponctuel ou régulière comme chez Noir Coffee Shop. J'ai pû pendant 3 ans travailler à l'étranger et devenir manager d'équipe. J'ai dû former et recruter des nouveaux employés internationaux, mais également participer activement au développement de la stratégie commerciale d'un restaurant et faire ainsi 30% de CA de plus que les années précédentes. ",
+    competence: [
+      "Entrepreneuriat",
+      "Autonomie",
+      "Travail en équipe",
+      "Gestion du stress",
+      "Polyvalence",
+    ],
   },
   {
     year: "Mars 2021 - Juin 2021",
@@ -82,6 +89,7 @@ export const EXPERIENCES = [
     image: Marketing,
     company: "Morjana Cosmétiques",
     description: `J'ai créé un site e-commerce avec le CMS Wix pour permettre à l'entreprise de partir sur un positionnement en B2C en plus de leur positionnement en B2B. Mais finalement après un changement de la direction, le projet n'a pas vu le jour. `,
+    technologies: ["CMS"],
   },
   {
     year: "Septembre 2020 - Juillet 2021",
@@ -90,6 +98,7 @@ export const EXPERIENCES = [
     company: "Université de Rennes 1",
     description: `Pendant ma formation, j'ai pu être cheffe de projet sur un projet scientifique sur un pain à connotation santé, participer au concours U-cosmetics en créeant et en mettant en scène la communication marketing d'un Roll-on avec un baume rechargeable ou encore faire des analyses de marché et des études de cas marketing.`,
     technologies: ["R"],
+    competence: ["Communication", "Planification"],
   },
   {
     year: "Septembre 2013 - Juillet 2017",

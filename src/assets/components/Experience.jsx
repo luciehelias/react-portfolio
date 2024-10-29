@@ -15,7 +15,10 @@ const Experience = () => {
       </motion.h1>
       <div>
         {EXPERIENCES.map((experience, index) => (
-          <div key={index} className="mb-8 flex flex-wrap lg:justify-center">
+          <div
+            key={index}
+            className="mb-8 flex flex-wrap lg:justify-center pb-4"
+          >
             <motion.div
               whileInView={{ opacity: 1, x: 0 }}
               initial={{ opacity: 0, x: -100 }}
@@ -58,6 +61,14 @@ const Experience = () => {
                     className="rounded bg-pink-200 px-2 py-1 text-sm font-medium text-purple-800 "
                   >
                     {tech}
+                  </span>
+                ))}
+                {experience.competence?.map((competence, index) => (
+                  <span
+                    key={index}
+                    className="rounded bg-lime-400 px-2 py-1 text-sm font-medium text-purple-800 "
+                  >
+                    {competence}
                   </span>
                 ))}
               </div>
