@@ -4,6 +4,7 @@ import Hero from "./assets/components/Hero";
 import Header from "./assets/components/Header";
 import Technologies from "./assets/components/Technologies";
 import Projects from "./assets/components/Projects";
+import Pride from "./assets/components/Pride";
 import Contact from "./assets/components/Contact";
 import Future from "./assets/components/Future";
 import Footer from "./assets/components/Footer";
@@ -25,6 +26,7 @@ const App = () => {
         <Technologies />
         <Projects />
         <Experience />
+        <Pride />
         <Contact />
       </div>
       <Footer />
