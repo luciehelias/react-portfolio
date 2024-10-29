@@ -25,8 +25,6 @@ const iconVariants = (duration) => ({
 });
 
 const Technologies = () => {
-  const [hoveredIcon, setHoveredIcon] = useState(null);
-
   const technologies = [
     {
       icon: <RiJavascriptLine className="text-7xl text-yellow-400" />,
@@ -80,16 +78,12 @@ const Technologies = () => {
             variants={iconVariants(index + 2)}
             initial="initial"
             animate="animate"
-            className="relative border-2 border-neutral-400 rounded-2xl p-4 flex flex-col items-center"
-            onMouseEnter={() => setHoveredIcon(tech.name)}
-            onMouseLeave={() => setHoveredIcon(null)}
+            className="relative border-2 border-neutral-400 rounded-2xl p-4 flex flex-col items-center gap-6"
           >
             {tech.icon}
-            {hoveredIcon === tech.name && (
-              <span className="absolute z-5 left-1/2 top-24 -translate-x-1/2 text-sm font-semibold text-neutral-800 bg-white rounded-lg shadow-md p-1 mt-4">
-                {tech.name}
-              </span>
-            )}
+            <span className="text-sm font-semibold text-neutral-800">
+              {tech.name}
+            </span>
           </motion.div>
         ))}
       </motion.div>
