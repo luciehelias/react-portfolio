@@ -86,7 +86,7 @@ const Technologies = () => {
           >
             {tech.icon}
             {hoveredIcon === tech.name && (
-              <span className="absolute left-1/2 top-24 -translate-x-1/2 text-sm font-semibold text-neutral-800 bg-white rounded-lg shadow-md p-1 mt-4">
+              <span className="absolute z-5 left-1/2 top-24 -translate-x-1/2 text-sm font-semibold text-neutral-800 bg-white rounded-lg shadow-md p-1 mt-4">
                 {tech.name}
               </span>
             )}

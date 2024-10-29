@@ -14,7 +14,7 @@ const About = () => {
             <motion.img
               whileInView={{ opacity: 1, x: 0 }}
               initial={{ opacity: 0, x: -100 }}
-              transition={{ duration: 0.5, delay: 1 }}
+              transition={{ duration: 1.5 }}
               className="rounded-2xl h-80 object-cover "
               src={about}
               alt="photo"
@@ -26,7 +26,7 @@ const About = () => {
             <motion.p
               whileInView={{ opacity: 1, x: 0 }}
               initial={{ opacity: 0, x: 100 }}
-              transition={{ duration: 0.5, delay: 1 }}
+              transition={{ duration: 1.5 }}
               className="my-4 max-w-xl py-6 font-light whitespace-pre-line text-xl"
             >
               Développeuse full stack en début de carrière, j’ai découvert une
