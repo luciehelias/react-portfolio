@@ -25,7 +25,7 @@ const Future = () => {
           ou <span className="font-bold text-purple-800">une alternance</span>{" "}
           afin de pouvoir continuer à me perfectionner dans les languages que
           j'ai appris pendant ma formation. En parallèle, je continue à me
-          former aux autre languages les plus courants sur le marché et à me
+          former aux autres languages les plus courants sur le marché et à me
           tenir à jour des languages que j'ai commencé à apprendre.
         </motion.p>
         <motion.p

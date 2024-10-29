@@ -49,7 +49,7 @@ export const EXPERIENCES = [
     image: Padel,
     company: "Start-up : Deuce Padel",
     description: `
-    Au sein d'une équipe de 4, j'ai pu réaliser en 2 semaines le MVP (minimum viable product) d'une application mobile de mise en contact de joueurs de Padel avec Expo depuis un Figma. En plus de mon rôle de développeuse, j'ai également eu le rôle de Product Owner où j'ai pu en amont du projet, écrire les stories et par la suite animer les dailies. J'ai notamment pu gérer la partie de la gestion de l'authentification avec un système de context, la création d'un hook personnalisée pour la validation du formulaire, la création d'une liste de composants dynamiques et réutilisable (buttons, card, input, checkbox, modal...), mais aussi la configuration des appels API avec le backend que nous avons créé et la gestion des données avec des hooks (useEffect, useState).
+    Au sein d'une équipe de 4, j'ai pu réaliser en 2 semaines le MVP (minimum viable product) d'une application mobile de mise en contact de joueurs de Padel avec Expo depuis un Figma. En plus de mon rôle de développeuse, j'ai également eu le rôle de Product Owner où j'ai pu en amont du projet, écrire les stories et par la suite animer les dailies. J'ai notamment pu gérer la partie de la gestion de l'authentification avec un système de context, la création d'un hook personnalisé pour la validation du formulaire, la création d'une liste de composants dynamiques et réutilisables (buttons, card, input, checkbox, modal...), mais aussi la configuration des appels API avec le backend que nous avons créé et la gestion des données avec des hooks (useEffect, useState).
     `,
     technologies: [
       "HTML",
@@ -88,7 +88,7 @@ export const EXPERIENCES = [
     role: "Master Biologie-Gestion et Marketing",
     image: Study,
     company: "Université de Rennes 1",
-    description: `Pendant ma formation, j'ai pu être cheffe de projet sur un projet scientifique sur un pain à connotation santé, participer au concours U-cosmetics en créeant et en mettant en scène la communication marketing d'un Roll-on avec un baume rechargeable ou encore faire des analyse de marché et des études de cas marketing.`,
+    description: `Pendant ma formation, j'ai pu être cheffe de projet sur un projet scientifique sur un pain à connotation santé, participer au concours U-cosmetics en créeant et en mettant en scène la communication marketing d'un Roll-on avec un baume rechargeable ou encore faire des analyses de marché et des études de cas marketing.`,
     technologies: ["R"],
   },
   {
@@ -96,14 +96,14 @@ export const EXPERIENCES = [
     role: "Licence Science de la vie, mention Biochimie et Nutraceutique",
     image: Chemistry,
     company: "Université de Rennes 1",
-    description: `Pendant ma formation, j'ai pu avoir des connaissance sur l'alimentation et ses répercusions sur la santé, mais encore faire des analyses statistiques biologiques, de biologies moléculaires et analytiques.`,
+    description: `Pendant ma formation, j'ai pu avoir des connaissance sur l'alimentation et ses répercusions sur la santé et faire des analyses statistiques biologiques, de biologies moléculaires et analytiques.`,
     technologies: ["R"],
   },
 ];
 
 export const PROJECTS = [
   {
-    title: "Frontend Mentor",
+    title: "Projets Frontend Mentor",
     image: {
       FrontendMentor1,
       FrontendMentor2,
