@@ -15,6 +15,8 @@ import Reacteur from "../images/reacteur.png";
 import Job from "../images/job.png";
 import Marketing from "../images/marketing.jpg";
 import Padel from "../images/padel.jpeg";
+import Study from "../images/study.png";
+import Chemistry from "../images/chemistry.png";
 
 export const EXPERIENCES = [
   {
@@ -80,6 +82,22 @@ export const EXPERIENCES = [
     image: Marketing,
     company: "Morjana Cosmétiques",
     description: `J'ai créé un site e-commerce avec le CMS Wix pour permettre à l'entreprise de partir sur un positionnement en B2C en plus de leur positionnement en B2B. Mais finalement après un changement de la direction, le projet n'a pas vu le jour. `,
+  },
+  {
+    year: "Septembre 2020 - Juillet 2021",
+    role: "Master Biologie-Gestion et Marketing",
+    image: Study,
+    company: "Université de Rennes 1",
+    description: `Pendant ma formation, j'ai pu être cheffe de projet sur un projet scientifique sur un pain à connotation santé, participer au concours U-cosmetics en créeant et en mettant en scène la communication marketing d'un Roll-on avec un baume rechargeable ou encore faire des analyse de marché et des études de cas marketing.`,
+    technologies: ["R"],
+  },
+  {
+    year: "Septembre 2013 - Juillet 2017",
+    role: "Licence Science de la vie, mention Biochimie et Nutraceutique",
+    image: Chemistry,
+    company: "Université de Rennes 1",
+    description: `Pendant ma formation, j'ai pu avoir des connaissance sur l'alimentation et ses répercusions sur la santé, mais encore faire des analyses statistiques biologiques, de biologies moléculaires et analytiques.`,
+    technologies: ["R"],
   },
 ];
 

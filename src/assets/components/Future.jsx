@@ -1,6 +1,6 @@
 import { motion } from "framer-motion";
 
-const Hero = () => {
+const Future = () => {
   return (
     <div id="future" className="pt-20 pb-4 lg:my-36">
       <div className="flex flex-col ">
@@ -44,4 +44,4 @@ const Hero = () => {
   );
 };
 
-export default Hero;
+export default Future;
