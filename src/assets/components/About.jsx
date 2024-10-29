@@ -1,13 +1,12 @@
 import about from "../images/about.avif";
-import { ABOUT_TEXT } from "../constants";
 
 import { motion } from "framer-motion";
 
 const About = () => {
   return (
     <div id="about" className="pb-4 lg:my-36">
-      <h1 className="my-20 text-center text-4xl font-light">
-        A Propos de <span className="text-neutral-400">Moi</span>
+      <h1 className="my-20 text-center text-5xl font-light">
+        A Propos de <span className=" text-purple-800 font-semibold">Moi</span>
       </h1>
       <div className="flex flex-wrap items-center">
         <div className="w-full lg:w-1/2 lg:p-8">
@@ -28,9 +27,31 @@ const About = () => {
               whileInView={{ opacity: 1, x: 0 }}
               initial={{ opacity: 0, x: 100 }}
               transition={{ duration: 0.5, delay: 1 }}
-              className="my-4 max-w-xl py-6 font-extralight whitespace-pre-line text-justify"
+              className="my-4 max-w-xl py-6 font-light whitespace-pre-line text-justify text-xl"
             >
-              {ABOUT_TEXT}
+              <span className="font-bold text-purple-800">
+                Développeuse full stack
+              </span>{" "}
+              en début de carrière, j’ai découvert une véritable passion pour la
+              création d’applications web dynamiques et accessibles. Ayant suivi
+              une{" "}
+              <span className="font-bold text-purple-800">
+                formation intensive
+              </span>
+              , j’ai acquis des compétences en JavaScript, React, Node.js, et
+              MongoDB, que j’ai eu l’occasion d’appliquer sur des projets
+              concrets.{" "}
+              <span className="font-bold text-purple-800">
+                Curieuse et motivée
+              </span>{" "}
+              Curieuse et motivée, j’aime apprendre de nouvelles technologies et
+              relever des défis techniques pour élargir mes compétences.
+              <br />
+              Toujours prête à collaborer et à m’adapter, je suis{" "}
+              <span className="font-bold text-purple-800">enthousiaste</span> à
+              l’idée de contribuer à des projets stimulants, en m’efforçant
+              d’améliorer chaque ligne de code pour offrir des solutions de
+              qualité.
             </motion.p>
           </div>
         </div>

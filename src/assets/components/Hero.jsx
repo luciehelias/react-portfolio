@@ -1,8 +1,5 @@
 import { motion } from "framer-motion";
 
-import { HERO_CONTENT } from "../constants";
-import { MOTIVATION } from "../constants";
-
 import profilePic from "../images/Lucie-Helias.jpg";
 
 const Hero = () => {
@@ -23,25 +20,43 @@ const Hero = () => {
               initial={{ x: -100, opacity: 0 }}
               animate={{ x: 0, opacity: 1 }}
               transition={{ duration: 0.5, delay: 1.2 }}
-              className="bg-clip-text text-3xl font-extralight "
+              className="bg-clip-text text-4xl font-light "
             >
-              Développeuse full-stack (react)
+              Développeuse full-stack <span className="font-bold">(React)</span>
             </motion.span>
             <motion.p
               initial={{ x: -100, opacity: 0 }}
               animate={{ x: 0, opacity: 1 }}
               transition={{ duration: 0.5, delay: 1.4 }}
-              className="my-2 max-w-xl py-6 font-extralight tracking-tighter whitespace-pre-line text-justify"
+              className="my-2 max-w-xl py-6 font-light tracking-tighter whitespace-pre-line text-justify text-xl"
             >
-              {HERO_CONTENT}
+              Développeuse passionnée et rigoureuse, je maîtrise les
+              technologies front-end et back-end à travers des langages comme{" "}
+              <span className="font-bold text-purple-800">
+                JavaScript, React , Node.js et Express
+              </span>
+              . Formée au sein du bootcamp{" "}
+              <span className="font-bold text-purple-800">Le Reacteur</span>,
+              j’ai eu l’opportunité de réaliser divers projets techniques, de la
+              création d'interfaces utilisateurs réactives à la construction de
+              serveurs back-end. Mes compétences incluent également
+              l’intégration d’APIs, la gestion de bases de données, et la
+              création d’applications mobiles en{" "}
+              <span className="font-bold text-purple-800">React Native</span>.
             </motion.p>
             <motion.p
               initial={{ x: -100, opacity: 0 }}
               animate={{ x: 0, opacity: 1 }}
               transition={{ duration: 0.5, delay: 1.6 }}
-              className=" max-w-xl font-extralight tracking-tighter whitespace-pre-line text-justify"
+              className=" max-w-xl font-light tracking-tighter whitespace-pre-line text-justify text-xl"
             >
-              {MOTIVATION}
+              Chaque projet me permet de produire un code propre, testé et
+              réutilisable. Autodidacte, je continue de renforcer mes
+              connaissances en explorant de nouvelles technologies et en
+              m’investissant dans des plateformes de formation comme{" "}
+              <span className="font-bold text-purple-800">Frontend Mentor</span>
+              ou{" "}
+              <span className="font-bold text-purple-800">OpenClassrooms</span>.
             </motion.p>
           </div>
         </div>
