@@ -4,7 +4,7 @@ import profilePic from "../images/Lucie-Helias.png";
 
 const Hero = () => {
   return (
-    <div className="w-full lg:my-36 " id="portfolio">
+    <div className="w-full " id="portfolio">
       <div className="flex flex-wrap items-end mt-20">
         <div className=" w-full lg:w-2/3 lg:p-10">
           <div className="flex flex-col items-center lg:items-start">
@@ -12,7 +12,7 @@ const Hero = () => {
               initial={{ x: -100, opacity: 0 }}
               animate={{ x: 0, opacity: 1 }}
               transition={{ duration: 0.5, delay: 1 }}
-              className="pb-12 text-7xl font-light tracking-tight lg:mt-10 lg:text-6xl"
+              className="pb-12 text-6xl font-light tracking-tight lg:mt-10 lg:text-6xl"
             >
               Lucie Hélias
             </motion.h1>
@@ -20,7 +20,7 @@ const Hero = () => {
               initial={{ x: -100, opacity: 0 }}
               animate={{ x: 0, opacity: 1 }}
               transition={{ duration: 0.5, delay: 1.2 }}
-              className="bg-clip-text text-4xl font-light "
+              className="bg-clip-text text-3xl lg:text-4xl font-light "
             >
               Développeuse web full-stack{" "}
               <span className="font-bold">(React)</span>
@@ -29,7 +29,7 @@ const Hero = () => {
               initial={{ x: -100, opacity: 0 }}
               animate={{ x: 0, opacity: 1 }}
               transition={{ duration: 0.5, delay: 1.4 }}
-              className="my-2 max-w-xl py-6 font-light tracking-tighter whitespace-pre-line text-xl"
+              className="lg:my-2 max-w-xl py-6 font-light tracking-tighter whitespace-pre-line text-l lg:text-xl"
             >
               Développeuse passionnée et rigoureuse, je me suis spécialisée dans
               les technologies Front-End et Back-End à travers des langages
@@ -66,7 +66,7 @@ const Hero = () => {
               transition={{ duration: 0.5, delay: 1.8 }}
               src={profilePic}
               alt=" photo de profil"
-              className="rounded-2xl h-90 my-10 object-cover"
+              className="rounded-2xl h-80 lg:h-90 lg:my-10 object-cover"
             />
           </div>
         </div>

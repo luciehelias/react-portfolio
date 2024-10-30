@@ -1,5 +1,6 @@
 import React from "react";
 import Slider from "react-slick";
+
 import { PROJECTS } from "../constants";
 import { FaLink } from "react-icons/fa6";
 import { FaGithub } from "react-icons/fa";
@@ -17,12 +18,12 @@ const Projects = () => {
   };
 
   return (
-    <div id="projects" className="pt-20 pb-4">
+    <div id="projects" className="lg:pt-20 pt-10 pb-4">
       <motion.h1
         whileInView={{ opacity: 1, x: 0 }}
         initial={{ opacity: 0, x: -100 }}
         transition={{ duration: 1.5 }}
-        className="my-20 text-center text-5xl"
+        className="my-10 lg:my-20 text-center text-2xl lg:text-5xl"
       >
         Mes projets
       </motion.h1>
@@ -30,7 +31,7 @@ const Projects = () => {
         whileInView={{ opacity: 1, x: 0 }}
         initial={{ opacity: 0, x: -100 }}
         transition={{ duration: 1.5 }}
-        className="font-light tracking-tighter whitespace-pre-line lg:justify-center mb-32 text-xl lg:px-50"
+        className="font-light tracking-tighter whitespace-pre-line lg:justify-center mb-12 lg:mb-32 text-l lg:text-xl lg:px-50"
       >
         Chaque projet me permet de produire{" "}
         <span className="font-bold text-purple-800">
@@ -45,7 +46,6 @@ const Projects = () => {
       <div>
         {PROJECTS.map((project, index) => (
           <div key={index} className="mb-8 flex flex-wrap lg:justify-center">
-            {/* Informations du projet */}
             <motion.div
               whileInView={{ opacity: 1, x: 0 }}
               initial={{ opacity: 0, x: -100 }}
@@ -57,7 +57,7 @@ const Projects = () => {
               <h2 className="mb-2 font-semibold lg:text-2xl">
                 {project.title}
               </h2>
-              <p className="mb-4 text-neutral-500 lg:text-base">
+              <p className="mb-4 text-neutral-500 text-sm lg:text-base">
                 {project.description}
               </p>
 

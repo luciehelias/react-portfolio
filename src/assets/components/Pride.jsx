@@ -5,15 +5,15 @@ import dansLesSongesDeKaelia from "../images/dans-les-songes-de-kaelia.png";
 
 const Future = () => {
   return (
-    <div id="future" className="pt-20 pb-4 lg:my-36">
+    <div id="future" className="lg:pt-20 pt-10 pb-4 lg:my-36">
       <div className="flex flex-col ">
         <motion.h1
           whileInView={{ opacity: 1, y: 0 }}
           initial={{ opacity: 0, y: -100 }}
           transition={{ duration: 1.5 }}
-          className="my-20 text-center text-5xl "
+          className="my-8 lg:my-20 text-center text-2xl lg:text-5xl "
         >
-          Mes autres (superbes) fiertés personnelles
+          Mes autres fiertés personnelles
         </motion.h1>
         <div className="lg:flex gap-30">
           <div className="lg:w-1/2">
@@ -66,7 +66,7 @@ const Future = () => {
             </motion.p>
           </div>
           <motion.div
-            className="flex w-full lg:w-1/2 gap-20 lg:ml-4 lg:justify-center lg:items-center"
+            className="flex w-full lg:w-1/2 gap-6 lg:gap-20 lg:ml-4 lg:justify-center lg:items-center"
             whileInView={{ opacity: 1, x: 0 }}
             initial={{ opacity: 0, x: 100 }}
             transition={{ duration: 1 }}
