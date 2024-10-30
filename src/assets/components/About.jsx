@@ -5,16 +5,21 @@ import { motion } from "framer-motion";
 const About = () => {
   return (
     <div id="about" className="lg:pt-20 pt-10 pb-4">
-      <h1 className="my-8 lg:my-20 text-center text-2xl lg:text-5xl font-light">
+      <motion.h1
+        initial={{ x: -100, opacity: 0 }}
+        animate={{ x: 0, opacity: 1 }}
+        transition={{ duration: 1.5, delay: 0.7 }}
+        className="my-8 lg:my-20 text-center text-2xl lg:text-5xl font-light"
+      >
         A Propos de <span className=" text-purple-800 font-semibold">Moi</span>
-      </h1>
+      </motion.h1>
       <div className="flex flex-wrap items-center">
         <div className="w-full lg:w-1/2 lg:p-8">
           <div className="flex items-center justify-center">
             <motion.img
               whileInView={{ opacity: 1, x: 0 }}
               initial={{ opacity: 0, x: -100 }}
-              transition={{ duration: 1.5 }}
+              transition={{ duration: 1.5, delay: 0.8 }}
               className="rounded-2xl h-80 object-cover "
               src={about}
               alt="photo"
@@ -26,7 +31,7 @@ const About = () => {
             <motion.p
               whileInView={{ opacity: 1, x: 0 }}
               initial={{ opacity: 0, x: 100 }}
-              transition={{ duration: 1.5 }}
+              transition={{ duration: 1.5, delay: 0.8 }}
               className="my-4 max-w-xl py-6 font-light whitespace-pre-line text-l lg:text-xl"
             >
               Développeuse full stack en début de parcours professionnel, j’ai

@@ -11,7 +11,7 @@ const Hero = () => {
             <motion.h1
               initial={{ x: -100, opacity: 0 }}
               animate={{ x: 0, opacity: 1 }}
-              transition={{ duration: 0.5, delay: 1 }}
+              transition={{ duration: 1.5, delay: 0.2 }}
               className="pb-12 text-6xl font-light tracking-tight mt-10 lg:text-6xl items-start"
             >
               Lucie Hélias
@@ -19,7 +19,7 @@ const Hero = () => {
             <motion.h2
               initial={{ x: -100, opacity: 0 }}
               animate={{ x: 0, opacity: 1 }}
-              transition={{ duration: 0.5, delay: 1.2 }}
+              transition={{ duration: 0.5, delay: 0.3 }}
               className="bg-clip-text text-3xl lg:text-4xl font-light "
             >
               Développeuse web full-stack{" "}
@@ -28,7 +28,7 @@ const Hero = () => {
             <motion.p
               initial={{ x: -100, opacity: 0 }}
               animate={{ x: 0, opacity: 1 }}
-              transition={{ duration: 0.5, delay: 1.4 }}
+              transition={{ duration: 0.5, delay: 0.5 }}
               className="lg:my-2 max-w-xl py-6 font-light tracking-tighter whitespace-pre-line text-l lg:text-xl"
             >
               Développeuse passionnée et rigoureuse, je me suis spécialisée dans
@@ -63,7 +63,7 @@ const Hero = () => {
             <motion.img
               initial={{ x: 100, opacity: 0 }}
               animate={{ x: 0, opacity: 1 }}
-              transition={{ duration: 0.5, delay: 1.8 }}
+              transition={{ duration: 0.5, delay: 0.5 }}
               src={profilePic}
               alt=" photo de profil"
               className="rounded-2xl h-80 lg:h-96 lg:my-10 object-cover"
