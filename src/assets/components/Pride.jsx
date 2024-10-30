@@ -23,17 +23,18 @@ const Future = () => {
               transition={{ duration: 1.4 }}
               className="my-2 py-2 font-light whitespace-pre-line text-l"
             >
-              Lors de mon expatriation en Nouvelle-Zélande puis en Australie,
-              j'ai eu trois années pour m’immerger dans l'écriture et achever{" "}
+              Pendant mon expatriation en Nouvelle-Zélande et en Australie,
+              entre l'apprentissage d'un nouveau métier et la découverte de
+              nouvelles cultures, j'ai consacré trois ans à l'écriture,
+              finalisant le premier jet de{" "}
               <span className="font-bold text-purple-800">
                 mon premier roman
-              </span>
-              , tout en débutant{" "}
-              <span className="font-bold text-purple-800">un second</span> que
-              j’ai pu mener à terme en 2021. Entre l’apprentissage d’un nouveau
-              métier et les découvertes culturelles, j’ai puisé dans mon
-              imagination pour bâtir deux univers uniques, chacun vibrant de ses
-              propres personnages et intrigues.
+              </span>{" "}
+              et <span className="font-bold text-purple-800"> d'un second</span>{" "}
+              en 2021. Les expériences de voyage, les rencontres et mon passé
+              ont enrichi mon imagination, me permettant de créer deux univers
+              uniques, chacun peuplé de personnages et d'intrigues qui leur sont
+              propres.
             </motion.p>
             <motion.p
               whileInView={{ opacity: 1, x: 0 }}
@@ -44,8 +45,8 @@ const Future = () => {
               Au fil de ces années, j’ai partagé cette aventure littéraire avec
               mes lecteurs de l’époque, publiant chaque semaine un nouveau
               chapitre sur{" "}
-              <span className="font-bold text-purple-800">Wattpad</span>, où
-              leur soutien et leurs retours ont été une précieuse source de
+              <span className="font-bold text-purple-800">Wattpad</span> où leur
+              soutien et leurs retours ont été une précieuse source de
               motivation et d’inspiration. Ensemble, mes deux romans cumulent
               aujourd’hui près de{" "}
               <span className="font-bold text-purple-800">15 000 lectures</span>
@@ -66,7 +67,7 @@ const Future = () => {
             </motion.p>
           </div>
           <motion.div
-            className="flex w-full lg:w-1/2 gap-6 lg:gap-20 lg:ml-4 lg:justify-center lg:items-center"
+            className="flex w-full lg:w-1/2 gap-6 lg:gap-10 lg:ml-4 lg:justify-center lg:items-center"
             whileInView={{ opacity: 1, x: 0 }}
             initial={{ opacity: 0, x: 100 }}
             transition={{ duration: 1 }}

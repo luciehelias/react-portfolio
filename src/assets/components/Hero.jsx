@@ -29,7 +29,7 @@ const Hero = () => {
               initial={{ x: -100, opacity: 0 }}
               animate={{ x: 0, opacity: 1 }}
               transition={{ duration: 0.5, delay: 0.5 }}
-              className="lg:my-2 max-w-xl py-6 font-light tracking-tighter whitespace-pre-line text-l lg:text-xl"
+              className="lg:my-2 lg:max-w-xl xl:max-w-6xl py-6 font-light tracking-tighter whitespace-pre-line text-l lg:text-xl"
             >
               Développeuse passionnée et rigoureuse, je me suis spécialisée dans
               les technologies Front-End et Back-End à travers des langages
