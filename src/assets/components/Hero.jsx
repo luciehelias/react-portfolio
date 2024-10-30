@@ -12,7 +12,7 @@ const Hero = () => {
               initial={{ x: -100, opacity: 0 }}
               animate={{ x: 0, opacity: 1 }}
               transition={{ duration: 0.5, delay: 1 }}
-              className="pb-12 text-6xl font-light tracking-tight mt-10 lg:text-6xl"
+              className="pb-12 text-6xl font-light tracking-tight mt-10 lg:text-6xl items-start"
             >
               Lucie Hélias
             </motion.h1>
