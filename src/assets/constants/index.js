@@ -28,22 +28,6 @@ export const EXPERIENCES = [
       "Disponible de suite pour intégrer une entreprise et ainsi évoluer aux côtés de professionnels tout en apportant mon énergie et mes compétences à vos projets.",
   },
   {
-    year: "2024 - Maintenant",
-    role: "Formation : Dévéloppeuse Full Stack",
-    image: Learning,
-    company: "Autodidacte",
-    description:
-      "Je me forme de manière autodidacte sur différentes plateformes telles que Frontend Mentor, OpenClassrooms, Youtube ou encore en suivant des formations payantes de développeurs tels que Traversy Media.",
-    technologies: [
-      "HTML",
-      "CSS",
-      "Javascript",
-      "React.js",
-      "Typescript",
-      "Tailwind",
-    ],
-  },
-  {
     year: "Septembre 2024",
     role: "MVP : Dévéloppeuse Full Stack",
     image: Padel,
@@ -68,6 +52,29 @@ export const EXPERIENCES = [
     company: "Le Reacteur",
     description: `J'ai suivi une formation intense chez Le Reacteur qui est un bootcamp principalement sur React et React Native. J'ai pu travailler sur différents projets utilisant des stacks différentes. À la fin de la formation, j'ai également créé une application full stack qui reprend les codes d'une grande entreprise de Fast Food. `,
     technologies: ["React Native", "CSS", "Figma", "Node.js", "Express"],
+    competence: [
+      "Rigueur",
+      "Capacité d'apprentissage rapide",
+      "Adaptabilité",
+      "Créativité",
+    ],
+  },
+  {
+    year: "Janvier 2024 - Maintenant",
+    role: "Formation : Dévéloppeuse Web",
+    image: Learning,
+    company: "Autodidacte",
+    description:
+      "Je me forme de manière autodidacte sur différentes plateformes telles que Frontend Mentor, OpenClassrooms, Youtube ou encore en suivant des formations payantes de développeurs tels que Traversy Media.",
+    technologies: [
+      "HTML",
+      "CSS",
+      "Javascript",
+      "React.js",
+      "Typescript",
+      "Tailwind",
+    ],
+    competence: ["Autonomie", "Curiosité"],
   },
   {
     year: " Mars 2017 - Maintenant ",
@@ -82,6 +89,7 @@ export const EXPERIENCES = [
       "Travail en équipe",
       "Gestion du stress",
       "Polyvalence",
+      "Anglais",
     ],
   },
   {

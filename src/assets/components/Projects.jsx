@@ -97,7 +97,7 @@ const Projects = () => {
                 {project.technologies.map((tech, index) => (
                   <span
                     key={index}
-                    className="rounded bg-pink-200 px-2 py-1 text-sm font-medium text-purple-800"
+                    className="rounded bg-purple-400 text-white px-2 py-1 text-sm font-medium "
                   >
                     {tech}
                   </span>
