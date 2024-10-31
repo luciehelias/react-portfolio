@@ -144,7 +144,7 @@ export const PROJECTS = [
     githubFrontend: "https://github.com/luciehelias/frontend-marvel",
     githubBackend: "https://github.com/luciehelias/backend-marvel",
     description:
-      "J'ai créé une application Marvel où l'utilisateur peut chercher grâce à la barre de recherche ses comics favoris ou ses personnages favoris et les mettre dans ses favoris.",
+      "J'ai développé une application Marvel permettant aux utilisateurs de rechercher leurs comics ou personnages préférés à l'aide d'une barre de recherche, et de les ajouter à leurs favoris.",
     link: "https://project-marvel-react.netlify.app",
     technologies: ["HTML", "CSS", "React", "Node.js", "Express"],
   },
