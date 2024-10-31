@@ -20,49 +20,43 @@ const NavBar = ({ isOpen, toggleNav }) => {
       </nav>
 
       {isOpen && (
-        <div className="fixed inset-y-0 right-0 w-2/6 bg-violet-800 bg-opacity-90 z-50 lg:hidden transition-transform duration-300 ease-in-out">
+        <div className="fixed inset-y-0 right-0 w-1/2 bg-violet-800 z-10 lg:hidden transition-transform duration-300 ease-in-out">
           <nav className="flex flex-col pl-4 mt-40 h-full">
             <a
-              className="text-white text-base hover:text-purple-800 my-4"
+              className="text-white text-lg pl-2 hover:text-purple-800 my-4"
               href="#about"
               onClick={toggleNav}
             >
               A propos de moi
             </a>
             <a
-              className="text-white text-base hover:text-purple-800 my-4"
+              className="text-white text-lg pl-2 hover:text-purple-800 my-4"
               href="#future"
               onClick={toggleNav}
             >
               Mes Objectifs
             </a>
             <a
-              className="text-white text-base hover:text-purple-800 my-4"
+              className="text-white text-lg pl-2 hover:text-purple-800 my-4"
               href="#projects"
               onClick={toggleNav}
             >
               Mes Projets
             </a>
             <a
-              className="text-white text-base hover:text-purple-800 my-4"
+              className="text-white text-lg pl-2 hover:text-purple-800 my-4"
               href="#experiences"
               onClick={toggleNav}
             >
               Mon Parcours
             </a>
             <a
-              className="text-white text-base hover:text-purple-800 my-4"
+              className="text-white text-lg pl-2 hover:text-purple-800 my-4"
               href="#contact"
               onClick={toggleNav}
             >
               Contact
             </a>
-            <button
-              onClick={toggleNav}
-              className="mt-4 text-base text-white flex items-start"
-            >
-              Fermer
-            </button>
           </nav>
         </div>
       )}
