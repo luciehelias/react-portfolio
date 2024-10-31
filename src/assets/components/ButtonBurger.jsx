@@ -17,7 +17,7 @@ const ButtonBurger = () => {
         <div>
           <IoCloseSharp
             onClick={toggleNav}
-            className="text-white text-4xl absolute z-50"
+            className="text-white text-4xl absolute z-50 right-7 top-6"
           />
         </div>
       ) : (
