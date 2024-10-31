@@ -1,5 +1,6 @@
 import { FaLinkedin } from "react-icons/fa";
 import { FaGithub } from "react-icons/fa";
+import NavBar from "./NavBar";
 
 const Header = () => {
   return (
@@ -8,23 +9,7 @@ const Header = () => {
         <a href="#portfolio">Mon portfolio</a>
       </h1>
       <div className="flex items-center justify-center gap-4 text-2xl ">
-        <nav className="lg:flex items-center justify-between p-6 text-base gap-4 hidden">
-          <a className="hover:text-purple-800" href="#about">
-            A propos de moi
-          </a>
-          <a className="hover:text-purple-800" href="#future">
-            Mes Objectifs
-          </a>
-          <a className="hover:text-purple-800" href="#projects">
-            Mes Projets
-          </a>
-          <a className="hover:text-purple-800" href="#experiences">
-            Mon Parcours
-          </a>
-          <a className="hover:text-purple-800" href="#contact">
-            Contact
-          </a>
-        </nav>
+        <NavBar />
         <a href="https://github.com/luciehelias" target="_blank">
           <FaGithub />
         </a>
