@@ -6,7 +6,7 @@ import ButtonBurger from "../components/ButtonBurger";
 const Header = () => {
   return (
     <div className="flex items-center justify-between py-6 z-10 border-b-2 w-full fixed top-0 bg-white px-10 lg:py-2 ">
-      <h1 className="lg:text-4xl font-medium text-purple-800">
+      <h1 className="lg:text-4xl text-2xl font-medium text-purple-800">
         <a href="#portfolio">Mon portfolio</a>
       </h1>
       <div className="flex items-center justify-end gap-4 text-2xl">

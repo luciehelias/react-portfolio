@@ -73,28 +73,20 @@ const Technologies = () => {
   ];
 
   return (
-    <div className="lg:my-24 lg:pt-20 pt-10 pb-4">
-      <motion.h1
-        whileInView={{ opacity: 1, y: 0 }}
-        initial={{ opacity: 0, y: -100 }}
-        transition={{ duration: 1.5 }}
-        className="my-8 lg:my-20 text-center text-2xl lg:text-5xl"
-      >
+    <motion.div
+      className="lg:my-24 lg:pt-20 pt-10 pb-4"
+      whileInView={{ opacity: 1, x: 0 }}
+      initial={{ opacity: 0, x: -100 }}
+      transition={{ duration: 1.5 }}
+    >
+      <h1 className="my-8 lg:my-20 text-center text-2xl lg:text-6xl">
         Mes technologies
-      </motion.h1>
-      <motion.div
-        whileInView={{ opacity: 1, x: 0 }}
-        initial={{ opacity: 0, x: -100 }}
-        transition={{ duration: 1.5 }}
-        className="flex flex-wrap items-center justify-center gap-8"
-      >
+      </h1>
+      <div className="flex flex-wrap items-center justify-center gap-8">
         {technologies.map((tech, index) => (
           <motion.div
             key={index}
-            variants={iconVariants(index + 2)}
-            initial="initial"
-            animate="animate"
-            className="relative border-2 border-neutral-400 rounded-2xl p-4 flex flex-col items-center lg:gap-6 w-20 lg:w-auto"
+            className="relative border-2 border-neutral-400 rounded-2xl p-4 flex flex-col items-center lg:gap-6 w-20 h-32 lg:w-auto"
           >
             {tech.icon}
             <span className="text-xs lg:text-sm font-semibold text-neutral-800 text-wrap pt-2 lg:pt-0">
@@ -102,8 +94,8 @@ const Technologies = () => {
             </span>
           </motion.div>
         ))}
-      </motion.div>
-    </div>
+      </div>
+    </motion.div>
   );
 };
 

@@ -12,7 +12,7 @@ const Hero = () => {
               initial={{ x: -100, opacity: 0 }}
               animate={{ x: 0, opacity: 1 }}
               transition={{ duration: 1.5, delay: 0.2 }}
-              className="pb-12 text-6xl font-light tracking-tight mt-10 lg:text-6xl items-start"
+              className="pb-12 text-6xl font-light tracking-tight mt-10 lg:text-7xl items-start"
             >
               Lucie Hélias
             </motion.h1>
@@ -20,7 +20,7 @@ const Hero = () => {
               initial={{ x: -100, opacity: 0 }}
               animate={{ x: 0, opacity: 1 }}
               transition={{ duration: 0.5, delay: 0.3 }}
-              className="bg-clip-text text-3xl lg:text-4xl font-light "
+              className="bg-clip-text text-3xl lg:text-4xl 2xl:text-5xl font-light "
             >
               Développeuse web full-stack{" "}
               <span className="font-bold">(React)</span>
@@ -29,7 +29,7 @@ const Hero = () => {
               initial={{ x: -100, opacity: 0 }}
               animate={{ x: 0, opacity: 1 }}
               transition={{ duration: 0.5, delay: 0.5 }}
-              className="lg:my-2 lg:max-w-xl xl:max-w-6xl py-6 font-light tracking-tighter whitespace-pre-line text-l lg:text-xl"
+              className="lg:my-2 lg:max-w-xl xl:max-w-6xl py-6 font-light tracking-tighter whitespace-pre-line text-l lg:text-xl 2xl:text-2xl"
             >
               Développeuse passionnée et rigoureuse, je me suis spécialisée dans
               les technologies Front-End et Back-End à travers des langages

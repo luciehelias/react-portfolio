@@ -40,19 +40,15 @@ const Contact = () => {
   };
 
   return (
-    <div id="contact" className="pt-20 pb-4">
-      <motion.h1
-        whileInView={{ opacity: 1, x: 0 }}
-        initial={{ opacity: 0, x: -100 }}
-        transition={{ duration: 1.5 }}
-        className="my-10 text-center text-2xl lg:text-5xl"
-      >
-        Contactez-moi
-      </motion.h1>
-      <motion.form
-        whileInView={{ opacity: 1, x: 0 }}
-        initial={{ opacity: 0, x: -100 }}
-        transition={{ duration: 1.5 }}
+    <motion.div
+      id="contact"
+      className="pt-20 pb-4"
+      whileInView={{ opacity: 1, x: 0 }}
+      initial={{ opacity: 0, x: -100 }}
+      transition={{ duration: 1.5 }}
+    >
+      <h1 className="my-10 text-center text-2xl lg:text-6xl">Contactez-moi</h1>
+      <form
         className="flex flex-col items-center m-auto w-full lg:w-1/2 px-4"
         onSubmit={onSubmit}
       >
@@ -65,7 +61,7 @@ const Contact = () => {
           />
         </div>
         <div className="flex flex-col w-full">
-          <label className="my-4">
+          <label className="my-4 lg:text-xl">
             Nom et Prénom <span className="text-red-600">*</span>
           </label>
           <input
@@ -73,11 +69,11 @@ const Contact = () => {
             name="name"
             placeholder="Nom et Prénom"
             required
-            className="my-2 p-2 border border-zinc-400 rounded-xl"
+            className="my-2 p-2 border border-zinc-400 rounded-xl lg:text-lg"
           />
         </div>
         <div className="flex flex-col w-full">
-          <label className="my-4">
+          <label className="my-4 lg:text-xl">
             Email <span className="text-red-600">*</span>
           </label>
           <input
@@ -85,20 +81,20 @@ const Contact = () => {
             placeholder="Adresse email"
             name="email"
             required
-            className="my-2 p-2 border border-zinc-400 rounded-xl"
+            className="my-2 p-2 border border-zinc-400 rounded-xl lg:text-lg"
           />
         </div>
         <div className="flex flex-col w-full">
-          <label className="my-4">Entreprise</label>
+          <label className="my-4 lg:text-xl">Entreprise</label>
           <input
             type="name"
             placeholder="Nom de votre entreprise"
             name="entreprise"
-            className="my-2 p-2 border border-zinc-400 rounded-xl"
+            className="my-2 p-2 border border-zinc-400 rounded-xl lg:text-lg"
           />
         </div>
         <div className="flex flex-col w-full">
-          <label className="my-4">
+          <label className="my-4 lg:text-xl">
             Votre message <span className="text-red-600">*</span>
           </label>
           <textarea
@@ -106,7 +102,7 @@ const Contact = () => {
             placeholder="Ecrivez votre message ici..."
             name="message"
             required
-            className="text-start my-2 p-2 border border-zinc-400 rounded-xl h-40"
+            className="text-start my-2 p-2 border border-zinc-400 rounded-xl h-40 lg:text-lg"
           />
         </div>
         <div className="flex items-center w-full">
@@ -117,8 +113,8 @@ const Contact = () => {
             Contactez-moi
           </button>
         </div>
-      </motion.form>
-    </div>
+      </form>
+    </motion.div>
   );
 };
 

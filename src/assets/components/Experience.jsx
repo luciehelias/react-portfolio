@@ -4,61 +4,45 @@ import { motion } from "framer-motion";
 
 const Experience = () => {
   return (
-    <div id="experiences" className="lg:pt-20 pt-10 lg:pb-4">
-      <motion.h1
-        whileInView={{ opacity: 1, x: 0 }}
-        initial={{ opacity: 0, x: -100 }}
-        transition={{ duration: 1.5 }}
-        className="my-20 text-center text-2xl lg:text-5xl"
-      >
-        Mon parcours
-      </motion.h1>
+    <motion.div
+      id="experiences"
+      className="lg:pt-20 pt-10 lg:pb-4"
+      whileInView={{ opacity: 1, x: 0 }}
+      initial={{ opacity: 0, x: -100 }}
+      transition={{ duration: 1 }}
+    >
+      <h1 className="my-20 text-center text-2xl lg:text-6xl">Mon parcours</h1>
       <div>
         {EXPERIENCES.map((experience, index) => (
           <div
             key={index}
             className="lg:mb-8 mb-4 flex flex-wrap lg:justify-center pb-4"
           >
-            <motion.div
-              whileInView={{ opacity: 1, x: 0 }}
-              initial={{ opacity: 0, x: -100 }}
-              transition={{ duration: 1 }}
-              className="w-full lg:w-1/4"
-            >
-              <p className="mb-2 text-sm text-neutral-400 lg:text-lg">
+            <div className="w-full lg:w-1/4">
+              <p className="mb-2 text-sm text-neutral-400 lg:text-lg 2xl:text-xl">
                 {experience.year}
               </p>
-            </motion.div>
-            <motion.div
-              whileInView={{ opacity: 1, x: 0 }}
-              initial={{ opacity: 0, x: 100 }}
-              transition={{ duration: 1 }}
-              className="w-full max-w-xl lg:w-3/4"
-            >
+            </div>
+            <div className="w-full max-w-xl lg:w-3/4">
               <div className="flex gap-4 items-center">
                 {" "}
-                <img
-                  src={experience.image}
-                  alt={experience.role}
-                  width={30}
-                  // height={10}
-                />
-                <h2 className="mb-2 font-semibold lg:text-xl">
+                <img src={experience.image} alt={experience.role} width={30} />
+                <h2 className="mb-2 font-semibold lg:text-xl 2xl:text-2xl">
                   {experience.role} - {""}
-                  <span className="text-sm text-purple-400 lg:text-xl">
+                  <span className="text-sm text-purple-400 lg:text-xl 2xl:text-2xl ">
                     {experience.company}
                   </span>
                 </h2>
               </div>
 
-              <p className="mb-4 text-neutral-500 text-sm lg:text-base">
+              <p className="mb-4 text-neutral-500 text-sm lg:text-base 2xl:text-xl  ">
                 {experience.description}
               </p>
               <div className="flex flex-wrap gap-2">
                 {experience.technologies?.map((tech, index) => (
                   <span
                     key={index}
-                    className="rounded bg-purple-400 text-white px-2 py-1 text-sm font-medium  "
+                    className="rounded bg-purple-400 text-white px-2 py-1 text-sm lg:text-base 2xl:text-xl  font-medium  "
                   >
                     {tech}
                   </span>
@@ -66,17 +50,17 @@ const Experience = () => {
                 {experience.competence?.map((competence, index) => (
                   <span
                     key={index}
-                    className="rounded bg-pink-200 text-purple-800  px-2 py-1 text-sm font-medium  "
+                    className="rounded bg-pink-200 text-purple-800 px-2 py-1 text-sm lg:text-base 2xl:text-xl font-medium  "
                   >
                     {competence}
                   </span>
                 ))}
               </div>
-            </motion.div>
+            </div>
           </div>
         ))}
       </div>
-    </div>
+    </motion.div>
   );
 };
 

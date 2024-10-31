@@ -1,7 +1,7 @@
 const NavBar = ({ isOpen, toggleNav }) => {
   return (
     <div>
-      <nav className="lg:flex lg:items-center lg:justify-between p-6 text-base gap-4 hidden ">
+      <nav className="lg:flex lg:items-center lg:justify-between p-6 text-base lg:text-xl gap-4 hidden ">
         <a className="hover:text-purple-800" href="#about">
           A propos de moi
         </a>

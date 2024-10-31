@@ -14,10 +14,12 @@ const ButtonBurger = () => {
   return (
     <div>
       {isOpen ? (
-        <IoCloseSharp
-          onClick={toggleNav}
-          className="text-white text-4xl z-50 absolute"
-        />
+        <div>
+          <IoCloseSharp
+            onClick={toggleNav}
+            className="text-white text-4xl absolute z-50"
+          />
+        </div>
       ) : (
         <GiHamburgerMenu className="lg:hidden text-2xl " onClick={toggleNav} />
       )}

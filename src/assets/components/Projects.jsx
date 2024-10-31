@@ -18,21 +18,17 @@ const Projects = () => {
   };
 
   return (
-    <div id="projects" className="lg:pt-20 pt-10 pb-4">
-      <motion.h1
-        whileInView={{ opacity: 1, x: 0 }}
-        initial={{ opacity: 0, x: -100 }}
-        transition={{ duration: 1.5 }}
-        className="my-10 lg:my-20 text-center text-2xl lg:text-5xl"
-      >
+    <motion.div
+      id="projects"
+      className="lg:pt-20 pt-10 pb-4"
+      whileInView={{ opacity: 1, x: 0 }}
+      initial={{ opacity: 0, x: -100 }}
+      transition={{ duration: 1.5 }}
+    >
+      <h1 className="my-10 lg:my-20 text-center text-2xl lg:text-6xl">
         Mes projets
-      </motion.h1>
-      <motion.p
-        whileInView={{ opacity: 1, x: 0 }}
-        initial={{ opacity: 0, x: -100 }}
-        transition={{ duration: 1.5 }}
-        className="font-light tracking-tighter whitespace-pre-line lg:justify-center mb-12 lg:mb-32 text-l lg:text-xl lg:px-50"
-      >
+      </h1>
+      <p className="font-light tracking-tighter whitespace-pre-line lg:justify-center mb-12 lg:mb-32 text-l lg:text-xl 2xl:text-2xl lg:px-50">
         Chaque projet me permet de produire{" "}
         <span className="font-bold text-purple-800">
           un code propre, testé et réutilisable
@@ -42,22 +38,22 @@ const Projects = () => {
         formation comme{" "}
         <span className="font-bold text-purple-800">Frontend Mentor</span> et{" "}
         <span className="font-bold text-purple-800">OpenClassrooms</span>.
-      </motion.p>
+      </p>
       <div>
         {PROJECTS.map((project, index) => (
           <div key={index} className="mb-8 flex flex-wrap lg:justify-center">
             <motion.div
-              whileInView={{ opacity: 1, x: 0 }}
-              initial={{ opacity: 0, x: -100 }}
-              transition={{ duration: 1 }}
               className={`w-full max-w-xl ${
                 project.image ? "lg:w-3/4" : "lg:w-full"
               }`}
+              whileInView={{ opacity: 1, x: 0 }}
+              initial={{ opacity: 0, x: 100 }}
+              transition={{ duration: 1 }}
             >
-              <h2 className="mb-2 font-semibold lg:text-2xl">
+              <h2 className="mb-2 font-semibold lg:text-2xl 2xl:text-3xl">
                 {project.title}
               </h2>
-              <p className="mb-4 text-neutral-500 text-sm lg:text-base">
+              <p className="mb-4 text-neutral-500 text-sm lg:text-base 2xl:text-xl">
                 {project.description}
               </p>
 
@@ -65,18 +61,17 @@ const Projects = () => {
                 <a
                   href={project.link}
                   target="_blank"
-                  className="flex gap-2 items-center text-blue-700 mb-2 lg:text-sm"
+                  className="flex gap-2 items-center text-blue-700 mb-2 lg:text-sm 2xl:text-base"
                 >
                   <FaLink /> Découvrir mon projet {project.title}
                 </a>
               )}
-
               <div className="flex gap-6">
                 {project.githubFrontend && (
                   <a
                     href={project.githubFrontend}
                     target="_blank"
-                    className="flex gap-2 items-center text-black mb-2 lg:text-sm"
+                    className="flex gap-2 items-center text-black mb-2 lg:text-sm 2xl:text-base"
                   >
                     <FaGithub />
                     Frontend
@@ -86,7 +81,7 @@ const Projects = () => {
                   <a
                     href={project.githubBackend}
                     target="_blank"
-                    className="flex gap-2 items-center text-black mb-2 lg:text-sm"
+                    className="flex gap-2 items-center text-black mb-2 lg:text-sm 2xl:text-base"
                   >
                     <FaGithub />
                     Backend
@@ -97,7 +92,7 @@ const Projects = () => {
                 {project.technologies.map((tech, index) => (
                   <span
                     key={index}
-                    className="rounded bg-purple-400 text-white px-2 py-1 text-sm font-medium "
+                    className="rounded bg-purple-400 text-white px-2 py-1 font-medium lg:text-base 2xl:text-xl "
                   >
                     {tech}
                   </span>
@@ -143,7 +138,7 @@ const Projects = () => {
           </div>
         ))}
       </div>
-    </div>
+    </motion.div>
   );
 };
 
