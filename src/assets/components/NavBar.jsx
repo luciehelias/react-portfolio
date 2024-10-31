@@ -5,7 +5,7 @@ const NavBar = ({ isOpen, toggleNav }) => {
         <a className="hover:text-purple-800" href="#about">
           A propos de moi
         </a>
-        <a className="hover:text-purple-800" href="#future">
+        <a className="hover:text-purple-800" href="#objective">
           Mes Objectifs
         </a>
         <a className="hover:text-purple-800" href="#projects">
@@ -31,7 +31,7 @@ const NavBar = ({ isOpen, toggleNav }) => {
             </a>
             <a
               className="text-white text-lg pl-2 hover:text-purple-800 my-4"
-              href="#future"
+              href="#objective"
               onClick={toggleNav}
             >
               Mes Objectifs

@@ -3,13 +3,12 @@ import { motion } from "framer-motion";
 import envolDuPapillon from "../images/envol-du-papillon.png";
 import dansLesSongesDeKaelia from "../images/dans-les-songes-de-kaelia.png";
 
-const Future = () => {
+const Pride = () => {
   return (
     <motion.div
-      id="future"
       className="lg:pt-20 pt-10 pb-4 lg:my-36"
       whileInView={{ opacity: 1, x: 0 }}
-      initial={{ opacity: 0, x: 100 }}
+      initial={{ opacity: 0, x: -100 }}
       transition={{ duration: 1.4 }}
     >
       <div className="flex flex-col ">
@@ -90,4 +89,4 @@ const Future = () => {
   );
 };
 
-export default Future;
+export default Pride;

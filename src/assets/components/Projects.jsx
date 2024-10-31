@@ -47,7 +47,7 @@ const Projects = () => {
                 project.image ? "lg:w-3/4" : "lg:w-full"
               }`}
               whileInView={{ opacity: 1, x: 0 }}
-              initial={{ opacity: 0, x: 100 }}
+              initial={{ opacity: 0, x: -100 }}
               transition={{ duration: 1 }}
             >
               <h2 className="mb-2 font-semibold lg:text-2xl 2xl:text-3xl">
@@ -102,7 +102,7 @@ const Projects = () => {
             {project.image && (
               <motion.div
                 whileInView={{ opacity: 1, x: 0 }}
-                initial={{ opacity: 0, x: 100 }}
+                initial={{ opacity: 0, x: -100 }}
                 transition={{ duration: 1 }}
                 className="w-full lg:w-1/4"
               >
@@ -116,7 +116,7 @@ const Projects = () => {
                         key={imgIndex}
                         src={imgSrc}
                         alt={`${project.title} - Image ${imgIndex + 1}`}
-                        className="object-contain w-full h-64 lg:h-80 "
+                        className="object-contain w-full h-64 lg:h-80 mt-6  "
                       />
                     ))}
                   </Slider>

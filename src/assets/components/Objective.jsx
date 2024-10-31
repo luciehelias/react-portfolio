@@ -3,11 +3,11 @@ import { motion } from "framer-motion";
 const Objective = () => {
   return (
     <motion.div
-      id="future"
+      id="objective"
       className="lg:pt-20 pt-10 pb-4 lg:my-36"
       whileInView={{ opacity: 1, x: 0 }}
-      initial={{ opacity: 0, x: 100 }}
-      transition={{ duration: 1.4 }}
+      initial={{ opacity: 0, x: -100 }}
+      transition={{ duration: 1.5 }}
     >
       <div className="flex flex-col ">
         <h1 className="my-8 lg:my-20 text-center text-2xl lg:text-6xl">

@@ -8,8 +8,8 @@ const About = () => {
       id="about"
       className="lg:pt-20 pt-10 pb-4 w-full "
       whileInView={{ opacity: 1, x: 0 }}
-      initial={{ opacity: 0, x: 100 }}
-      transition={{ duration: 1.5, delay: 0.8 }}
+      initial={{ opacity: 0, x: -100 }}
+      transition={{ duration: 1.5 }}
     >
       <h1 className="my-8 lg:my-20 text-center text-2xl lg:text-6xl font-light">
         A Propos de <span className=" text-purple-800 font-semibold">Moi</span>
