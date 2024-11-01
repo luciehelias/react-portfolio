@@ -1,4 +1,5 @@
 import { motion } from "framer-motion";
+import Title from "./Title";
 
 const Objective = () => {
   return (
@@ -10,9 +11,7 @@ const Objective = () => {
       transition={{ duration: 1.5 }}
     >
       <div className="flex flex-col ">
-        <h1 className="my-8 lg:my-20 text-center text-2xl lg:text-6xl">
-          Mes Objectifs
-        </h1>
+        <Title title="Mes objectifs" />
         <p className="my-2 lg:py-4 font-light whitespace-pre-line text-l lg:text-xl 2xl:text-2xl">
           Actuellement en recherche d'un{" "}
           <span className="font-bold text-purple-800">

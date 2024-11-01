@@ -7,6 +7,7 @@ import { FaGithub } from "react-icons/fa";
 import { motion } from "framer-motion";
 
 import "../style/slider.css";
+import Title from "./Title";
 
 const Projects = () => {
   const sliderSettings = {
@@ -25,9 +26,7 @@ const Projects = () => {
       initial={{ opacity: 0, x: -100 }}
       transition={{ duration: 1.5 }}
     >
-      <h1 className="my-10 lg:my-20 text-center text-2xl lg:text-6xl">
-        Mes projets
-      </h1>
+      <Title title="Mes projets" />
       <p className="font-light tracking-tighter whitespace-pre-line lg:justify-center mb-12 lg:mb-32 text-l lg:text-xl 2xl:text-2xl lg:px-50">
         Chaque projet me permet de produire{" "}
         <span className="font-bold text-purple-800">

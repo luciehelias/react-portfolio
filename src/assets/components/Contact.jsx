@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import Swal from "sweetalert2";
 
 import { motion } from "framer-motion";
+import Title from "./Title";
 
 const Contact = () => {
   const [result, setResult] = useState("");
@@ -47,7 +48,7 @@ const Contact = () => {
       initial={{ opacity: 0, x: -100 }}
       transition={{ duration: 1.5 }}
     >
-      <h1 className="my-10 text-center text-2xl lg:text-6xl">Contactez-moi</h1>
+      <Title title="Contactez-moi" />
       <form
         className="flex flex-col items-center m-auto w-full lg:w-1/2 px-4"
         onSubmit={onSubmit}

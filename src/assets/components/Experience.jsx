@@ -1,6 +1,7 @@
 import { EXPERIENCES } from "../constants";
 
 import { motion } from "framer-motion";
+import Title from "./Title";
 
 const Experience = () => {
   return (
@@ -11,7 +12,7 @@ const Experience = () => {
       initial={{ opacity: 0, x: -100 }}
       transition={{ duration: 1 }}
     >
-      <h1 className="my-20 text-center text-2xl lg:text-6xl">Mon parcours</h1>
+      <Title title="Mon parcours" />
       <div>
         {EXPERIENCES.map((experience, index) => (
           <div

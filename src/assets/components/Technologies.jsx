@@ -10,6 +10,7 @@ import { FaNodeJs } from "react-icons/fa";
 import { SiMongodb } from "react-icons/si";
 import { RiJavascriptLine } from "react-icons/ri";
 import { motion } from "framer-motion";
+import Title from "./Title";
 
 const iconVariants = (duration) => ({
   initial: { y: -10 },
@@ -79,9 +80,7 @@ const Technologies = () => {
       initial={{ opacity: 0, x: -100 }}
       transition={{ duration: 1.5 }}
     >
-      <h1 className="my-8 lg:my-20 text-center text-2xl lg:text-6xl">
-        Mes technologies
-      </h1>
+      <Title title="Mes technologies" />
       <div className="flex flex-wrap items-center justify-center gap-8">
         {technologies.map((tech, index) => (
           <motion.div

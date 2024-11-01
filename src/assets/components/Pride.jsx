@@ -2,6 +2,7 @@ import { motion } from "framer-motion";
 
 import envolDuPapillon from "../images/envol-du-papillon.png";
 import dansLesSongesDeKaelia from "../images/dans-les-songes-de-kaelia.png";
+import Title from "./Title";
 
 const Pride = () => {
   return (
@@ -12,9 +13,7 @@ const Pride = () => {
       transition={{ duration: 1.4 }}
     >
       <div className="flex flex-col ">
-        <h1 className="my-8 lg:my-20 text-center text-2xl lg:text-6xl ">
-          Mes autres fiertés personnelles
-        </h1>
+        <Title title="Mes autres fiertés personnelles" />
         <div className="lg:flex gap-30">
           <div className="lg:w-1/2">
             <p className="my-2 py-2 font-light whitespace-pre-line text-l lg:text-l 2xl:text-xl">

@@ -1,6 +1,7 @@
 import about from "../images/about.avif";
 
 import { motion } from "framer-motion";
+import Title from "./Title";
 
 const About = () => {
   return (
@@ -11,9 +12,7 @@ const About = () => {
       initial={{ opacity: 0, x: -100 }}
       transition={{ duration: 1.5 }}
     >
-      <h1 className="my-8 lg:my-20 text-center text-2xl lg:text-6xl font-light">
-        A Propos de <span className=" text-purple-800 font-semibold">Moi</span>
-      </h1>
+      <Title title="A propos de Moi" />
       <div className="flex flex-wrap items-center">
         <div className="w-full lg:w-1/3 lg:p-8">
           <div className="flex items-center justify-center">
