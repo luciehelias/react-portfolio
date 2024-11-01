@@ -1,10 +1,11 @@
 import Slider from "react-slick";
 
 import { FaLink } from "react-icons/fa6";
-import { FaGithub } from "react-icons/fa";
+
 import { motion } from "framer-motion";
 
 import "../style/slider.css";
+import LinkGithub from "./basics/LinkGithub";
 
 const Project = (project, index) => {
   const sliderSettings = {
@@ -42,24 +43,10 @@ const Project = (project, index) => {
         )}
         <div className="flex gap-6">
           {project.githubFrontend && (
-            <a
-              href={project.githubFrontend}
-              target="_blank"
-              className="flex gap-2 items-center text-black mb-2 lg:text-sm 2xl:text-base"
-            >
-              <FaGithub />
-              Frontend
-            </a>
+            <LinkGithub url={project.githubFrontend} title="Frontend" />
           )}
           {project.githubBackend && (
-            <a
-              href={project.githubBackend}
-              target="_blank"
-              className="flex gap-2 items-center text-black mb-2 lg:text-sm 2xl:text-base"
-            >
-              <FaGithub />
-              Backend
-            </a>
+            <LinkGithub url={project.githubBackend} title="Backend" />
           )}
         </div>
         <div className="flex flex-wrap gap-2">
