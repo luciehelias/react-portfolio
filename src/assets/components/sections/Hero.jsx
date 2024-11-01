@@ -1,6 +1,6 @@
 import { motion } from "framer-motion";
 
-import profilePic from "../images/Lucie-Helias.png";
+import profilePic from "../../images/Lucie-Helias.png";
 
 const Hero = () => {
   return (

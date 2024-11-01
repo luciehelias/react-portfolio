@@ -1,13 +1,13 @@
-import About from "./assets/components/About";
-import Contact from "./assets/components/Contact";
-import Experience from "./assets/components/Experience";
-import Footer from "./assets/components/Footer";
-import Header from "./assets/components/Header";
-import Hero from "./assets/components/Hero";
-import Pride from "./assets/components/Pride";
-import Projects from "./assets/components/Projects";
-import Objective from "./assets/components/Objective";
-import Technologies from "./assets/components/Technologies";
+import About from "./assets/components/sections/About";
+import Contact from "./assets/components/sections/Contact";
+import Experience from "./assets/components/sections/Experience";
+import Footer from "./assets/components/sections/Footer";
+import Header from "./assets/components/sections/Header";
+import Hero from "./assets/components/sections/Hero";
+import Pride from "./assets/components/sections/Pride";
+import Projects from "./assets/components/sections/Projects";
+import Objective from "./assets/components/sections/Objective";
+import Technologies from "./assets/components/sections/Technologies";
 
 const App = () => {
   return (

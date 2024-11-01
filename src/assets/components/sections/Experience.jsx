@@ -1,7 +1,7 @@
-import { EXPERIENCES } from "../constants";
+import { EXPERIENCES } from "../../constants";
 
 import { motion } from "framer-motion";
-import Title from "./Title";
+import Title from "../basics/Title";
 
 const Experience = () => {
   return (

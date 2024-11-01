@@ -10,7 +10,7 @@ import { FaNodeJs } from "react-icons/fa";
 import { SiMongodb } from "react-icons/si";
 import { RiJavascriptLine } from "react-icons/ri";
 import { motion } from "framer-motion";
-import Title from "./Title";
+import Title from "../basics/Title";
 
 const iconVariants = (duration) => ({
   initial: { y: -10 },

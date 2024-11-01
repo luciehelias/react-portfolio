@@ -1,7 +1,7 @@
 // ButtonBurger.js
 import { GiHamburgerMenu } from "react-icons/gi";
 import { useState } from "react";
-import NavBar from "./NavBar";
+import NavBar from "./sections/NavBar";
 import { IoCloseSharp } from "react-icons/io5";
 
 const ButtonBurger = () => {

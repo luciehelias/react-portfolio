@@ -1,5 +1,5 @@
 import { motion } from "framer-motion";
-import Title from "./Title";
+import Title from "../basics/Title";
 
 const Objective = () => {
   return (

@@ -1,13 +1,13 @@
 import React from "react";
 import Slider from "react-slick";
 
-import { PROJECTS } from "../constants";
+import { PROJECTS } from "../../constants/index";
 import { FaLink } from "react-icons/fa6";
 import { FaGithub } from "react-icons/fa";
 import { motion } from "framer-motion";
 
-import "../style/slider.css";
-import Title from "./Title";
+import "../../style/slider.css";
+import Title from "../basics/Title";
 
 const Projects = () => {
   const sliderSettings = {

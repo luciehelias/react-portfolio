@@ -1,8 +1,8 @@
-import React, { useState } from "react";
+import reatc, { useState } from "react";
 import Swal from "sweetalert2";
 
 import { motion } from "framer-motion";
-import Title from "./Title";
+import Title from "../basics/Title";
 
 const Contact = () => {
   const [result, setResult] = useState("");

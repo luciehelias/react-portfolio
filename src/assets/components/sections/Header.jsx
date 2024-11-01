@@ -1,7 +1,7 @@
 import { FaLinkedin } from "react-icons/fa";
 import { FaGithub } from "react-icons/fa";
 import NavBar from "./NavBar";
-import ButtonBurger from "../components/ButtonBurger";
+import ButtonBurger from "../ButtonBurger";
 
 const Header = () => {
   return (

@@ -1,7 +1,7 @@
-import about from "../images/about.avif";
+import about from "../../images/about.avif";
 
 import { motion } from "framer-motion";
-import Title from "./Title";
+import Title from "../basics/Title";
 
 const About = () => {
   return (

@@ -1,8 +1,8 @@
 import { motion } from "framer-motion";
 
-import envolDuPapillon from "../images/envol-du-papillon.png";
-import dansLesSongesDeKaelia from "../images/dans-les-songes-de-kaelia.png";
-import Title from "./Title";
+import envolDuPapillon from "../../images/envol-du-papillon.png";
+import dansLesSongesDeKaelia from "../../images/dans-les-songes-de-kaelia.png";
+import Title from "../basics/Title";
 
 const Pride = () => {
   return (
