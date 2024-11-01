@@ -1,11 +1,10 @@
 import Slider from "react-slick";
 
-import { FaLink } from "react-icons/fa6";
-
 import { motion } from "framer-motion";
 
 import "../style/slider.css";
 import LinkGithub from "./basics/LinkGithub";
+import WebsiteLink from "./basics/WebsiteLink";
 
 const Project = (project, index) => {
   const sliderSettings = {
@@ -33,13 +32,7 @@ const Project = (project, index) => {
         </p>
 
         {project.link && (
-          <a
-            href={project.link}
-            target="_blank"
-            className="flex gap-2 items-center text-blue-700 mb-2 lg:text-sm 2xl:text-base"
-          >
-            <FaLink /> Découvrir mon projet {project.title}
-          </a>
+          <WebsiteLink url={project.link} title={project.title} />
         )}
         <div className="flex gap-6">
           {project.githubFrontend && (
