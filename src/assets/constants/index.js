@@ -43,7 +43,7 @@ export const EXPERIENCES = [
       "Typescript",
       "Tailwind",
     ],
-    competence: ["User Stories", "Sprint", "Methode Agile"],
+    skills: ["User Stories", "Sprint", "Methode Agile"],
   },
   {
     year: "Juillet 2024 - Octobre 2024",
@@ -52,7 +52,7 @@ export const EXPERIENCES = [
     company: "Le Reacteur",
     description: `J'ai suivi une formation intense chez Le Reacteur qui est un bootcamp principalement sur React et React Native. J'ai pu travailler sur différents projets utilisant des stacks différentes. À la fin de la formation, j'ai également créé une application full stack qui reprend les codes d'une grande entreprise de Fast Food. `,
     technologies: ["React Native", "CSS", "Figma", "Node.js", "Express"],
-    competence: [
+    skills: [
       "Rigueur",
       "Capacité d'apprentissage rapide",
       "Adaptabilité",
@@ -74,7 +74,7 @@ export const EXPERIENCES = [
       "Typescript",
       "Tailwind",
     ],
-    competence: ["Autonomie", "Curiosité"],
+    skills: ["Autonomie", "Curiosité"],
   },
   {
     year: " Mars 2017 - Maintenant ",
@@ -83,7 +83,7 @@ export const EXPERIENCES = [
     company: "Nouvelle-Zélande, Australie, France",
     description:
       "En tant que Freelance, je travaille dans plusieurs cafés parisiens de manière ponctuel ou régulière comme chez Noir Coffee Shop. J'ai pû pendant 3 ans travailler à l'étranger et devenir manager d'équipe. J'ai dû former et recruter des nouveaux employés internationaux, mais également participer activement au développement de la stratégie commerciale d'un restaurant et faire ainsi 30% de CA de plus que les années précédentes. ",
-    competence: [
+    skills: [
       "Entrepreneuriat",
       "Autonomie",
       "Travail en équipe",
@@ -99,7 +99,7 @@ export const EXPERIENCES = [
     company: "Morjana Cosmétiques",
     description: `J'ai créé un site e-commerce avec le CMS Wix pour permettre à l'entreprise de partir sur un positionnement en B2C en plus de leur positionnement en B2B. Finalement, après un changement de la direction, le projet n'a pas vu le jour. `,
     technologies: ["CMS", "WIX", "UX/UI", "SEO"],
-    competence: ["Communication", "Planification"],
+    skills: ["Communication", "Planification"],
   },
   {
     year: "Septembre 2020 - Juillet 2021",
@@ -108,7 +108,7 @@ export const EXPERIENCES = [
     company: "Université de Rennes 1",
     description: `Pendant ma formation, j'ai pu être cheffe de projet sur un projet scientifique sur un pain à connotation santé, participer au concours U-cosmetics en créeant et en mettant en scène la communication marketing d'un Roll-on avec un baume rechargeable ou encore faire des analyses de marché et des études de cas marketing.`,
     technologies: ["R"],
-    competence: ["Présentation", "Gestion", "Marketing", "Leadership"],
+    skills: ["Présentation", "Gestion", "Marketing", "Leadership"],
   },
   {
     year: "Septembre 2013 - Juillet 2017",
@@ -117,7 +117,7 @@ export const EXPERIENCES = [
     company: "Université de Rennes 1",
     description: `Pendant ma formation, j'ai pu avoir des connaissance sur l'alimentation et ses répercusions sur la santé et faire des analyses statistiques biologiques, de biologies moléculaires et analytiques.`,
     technologies: ["R"],
-    competence: ["Précision", "Synthèse", "Statistiques", "Esprit critique"],
+    skills: ["Précision", "Synthèse", "Statistiques", "Esprit critique"],
   },
 ];
 

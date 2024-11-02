@@ -3,6 +3,8 @@ import { EXPERIENCES } from "../../constants";
 import { motion } from "framer-motion";
 import Title from "../basics/Title";
 
+import Skill from "../basics/Skill";
+
 const Experience = () => {
   return (
     <motion.div
@@ -39,22 +41,12 @@ const Experience = () => {
               <p className="mb-4 text-neutral-500 text-sm lg:text-base 2xl:text-xl  ">
                 {experience.description}
               </p>
-              <div className="flex flex-wrap gap-2">
+              <div className="flex flex-wrap gap-4">
                 {experience.technologies?.map((tech, index) => (
-                  <span
-                    key={index}
-                    className="rounded bg-purple-400 text-white px-2 py-1 text-sm lg:text-base 2xl:text-xl  font-medium  "
-                  >
-                    {tech}
-                  </span>
+                  <Skill key={index} tech={tech} />
                 ))}
-                {experience.competence?.map((competence, index) => (
-                  <span
-                    key={index}
-                    className="rounded bg-pink-200 text-purple-800 px-2 py-1 text-sm lg:text-base 2xl:text-xl font-medium  "
-                  >
-                    {competence}
-                  </span>
+                {experience.skills?.map((skill, index) => (
+                  <Skill skill={skill} key={index} />
                 ))}
               </div>
             </div>

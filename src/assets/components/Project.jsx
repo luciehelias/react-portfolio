@@ -6,6 +6,8 @@ import "../style/slider.css";
 import LinkGithub from "./basics/LinkGithub";
 import WebsiteLink from "./basics/WebsiteLink";
 
+import Skill from "./basics/Skill";
+
 const Project = (project, index) => {
   const sliderSettings = {
     dots: true,
@@ -44,12 +46,7 @@ const Project = (project, index) => {
         </div>
         <div className="flex flex-wrap gap-2">
           {project.technologies.map((tech, index) => (
-            <span
-              key={index}
-              className="rounded bg-purple-400 text-white px-2 py-1 font-medium lg:text-base 2xl:text-xl "
-            >
-              {tech}
-            </span>
+            <Skill key={index} tech={tech} />
           ))}
         </div>
       </motion.div>
