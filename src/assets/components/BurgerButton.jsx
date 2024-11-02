@@ -1,10 +1,10 @@
-// ButtonBurger.js
+// BurgerButton.js
 import { GiHamburgerMenu } from "react-icons/gi";
 import { useState } from "react";
 import NavBar from "./NavBar";
 import { IoCloseSharp } from "react-icons/io5";
 
-const ButtonBurger = () => {
+const BurgerButton = () => {
   const [isOpen, setIsOpen] = useState(false);
 
   const toggleNav = () => {
@@ -28,4 +28,4 @@ const ButtonBurger = () => {
   );
 };
 
-export default ButtonBurger;
+export default BurgerButton;

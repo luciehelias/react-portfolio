@@ -1,6 +1,6 @@
 import { FaGithub } from "react-icons/fa";
 
-const LinkGithub = ({ url, title }) => {
+const GithubLink = ({ url, title }) => {
   return (
     <a
       href={url}
@@ -13,4 +13,4 @@ const LinkGithub = ({ url, title }) => {
   );
 };
 
-export default LinkGithub;
+export default GithubLink;

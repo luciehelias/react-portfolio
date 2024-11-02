@@ -3,11 +3,11 @@ import Slider from "react-slick";
 import { motion } from "framer-motion";
 
 import "../style/slider.css";
-import LinkGithub from "./basics/LinkGithub";
+import GithubLink from "./basics/GithubLink";
 import WebsiteLink from "./basics/WebsiteLink";
 
 import Skill from "./basics/Skill";
-import ImageProjet from "./basics/ImageProjet";
+import ProjectImage from "./basics/ProjectImage";
 
 const Project = (project, index) => {
   const sliderSettings = {
@@ -39,10 +39,10 @@ const Project = (project, index) => {
         )}
         <div className="flex gap-6">
           {project.githubFrontend && (
-            <LinkGithub url={project.githubFrontend} title="Frontend" />
+            <GithubLink url={project.githubFrontend} title="Frontend" />
           )}
           {project.githubBackend && (
-            <LinkGithub url={project.githubBackend} title="Backend" />
+            <GithubLink url={project.githubBackend} title="Backend" />
           )}
         </div>
         <div className="flex flex-wrap gap-2">
@@ -70,7 +70,7 @@ const Project = (project, index) => {
               ))}
             </Slider>
           ) : (
-            <ImageProjet
+            <ProjectImage
               link={project.link}
               image={project.image}
               title={project.title}

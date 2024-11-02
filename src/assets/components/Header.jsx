@@ -1,7 +1,7 @@
 import { FaLinkedin } from "react-icons/fa";
 import { FaGithub } from "react-icons/fa";
 import NavBar from "./NavBar";
-import ButtonBurger from "./ButtonBurger";
+import BurgerButton from "./BurgerButton";
 
 const Header = () => {
   return (
@@ -17,7 +17,7 @@ const Header = () => {
         <a href="https://www.linkedin.com/in/lucie-helias/" target="_blank">
           <FaLinkedin className="text-blue-700" />
         </a>
-        <ButtonBurger />
+        <BurgerButton />
       </div>
     </div>
   );

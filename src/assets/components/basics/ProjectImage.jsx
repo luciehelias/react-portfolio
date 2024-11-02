@@ -1,6 +1,6 @@
 import React from "react";
 
-const ImageProjet = ({ link, image, title }) => {
+const ProjectImage = ({ link, image, title }) => {
   return (
     <a
       href={link}
@@ -16,4 +16,4 @@ const ImageProjet = ({ link, image, title }) => {
   );
 };
 
-export default ImageProjet;
+export default ProjectImage;
