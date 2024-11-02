@@ -7,6 +7,7 @@ import LinkGithub from "./basics/LinkGithub";
 import WebsiteLink from "./basics/WebsiteLink";
 
 import Skill from "./basics/Skill";
+import ImageProjet from "./basics/ImageProjet";
 
 const Project = (project, index) => {
   const sliderSettings = {
@@ -69,17 +70,11 @@ const Project = (project, index) => {
               ))}
             </Slider>
           ) : (
-            <a
-              href={project.link}
-              target="_blank"
-              className="flex gap-2 items-center text-blue-500 mb-4"
-            >
-              <img
-                src={project.image}
-                alt={project.title}
-                className="mt-6 rounded object-contain lg:ml-10  "
-              />
-            </a>
+            <ImageProjet
+              link={project.link}
+              image={project.image}
+              title={project.title}
+            />
           )}
         </motion.div>
       )}
