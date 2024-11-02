@@ -1,8 +1,10 @@
-import reatc, { useState } from "react";
-import Swal from "sweetalert2";
-
 import { motion } from "framer-motion";
 import Title from "../basics/Title";
+
+import FormElement from "../basics/FormElement";
+
+import { useState } from "react";
+import Swal from "sweetalert2";
 
 const Contact = () => {
   const [result, setResult] = useState("");
@@ -39,7 +41,6 @@ const Contact = () => {
       setResult(data.message);
     }
   };
-
   return (
     <motion.div
       id="contact"
@@ -53,59 +54,40 @@ const Contact = () => {
         className="flex flex-col items-center m-auto w-full lg:w-1/2 px-4"
         onSubmit={onSubmit}
       >
-        <div style={{ display: "none" }}>
-          <label>Ne pas remplir ce champ</label>
-          <input
-            type="text"
-            value={honeypot}
-            onChange={(e) => setHoneypot(e.target.value)}
-          />
-        </div>
-        <div className="flex flex-col w-full">
-          <label className="my-4 lg:text-xl">
-            Nom et Prénom <span className="text-red-600">*</span>
-          </label>
-          <input
-            type="text"
-            name="name"
-            placeholder="Nom et Prénom"
-            required
-            className="my-2 p-2 border border-zinc-400 rounded-xl lg:text-lg"
-          />
-        </div>
-        <div className="flex flex-col w-full">
-          <label className="my-4 lg:text-xl">
-            Email <span className="text-red-600">*</span>
-          </label>
-          <input
-            type="email"
-            placeholder="Adresse email"
-            name="email"
-            required
-            className="my-2 p-2 border border-zinc-400 rounded-xl lg:text-lg"
-          />
-        </div>
-        <div className="flex flex-col w-full">
-          <label className="my-4 lg:text-xl">Entreprise</label>
-          <input
-            type="name"
-            placeholder="Nom de votre entreprise"
-            name="entreprise"
-            className="my-2 p-2 border border-zinc-400 rounded-xl lg:text-lg"
-          />
-        </div>
-        <div className="flex flex-col w-full">
-          <label className="my-4 lg:text-xl">
-            Votre message <span className="text-red-600">*</span>
-          </label>
-          <textarea
-            type="message"
-            placeholder="Ecrivez votre message ici..."
-            name="message"
-            required
-            className="text-start my-2 p-2 border border-zinc-400 rounded-xl h-40 lg:text-lg"
-          />
-        </div>
+        <FormElement
+          label="Ne pas remplir ce champ"
+          type="text"
+          name="honeypot"
+          value={honeypot}
+          onChange={(e) => setHoneypot(e.target.value)}
+        />
+        <FormElement
+          label="Nom et prénom"
+          type="text"
+          placeholder="Nom et Prénom"
+          name="name"
+          required="required"
+        />
+        <FormElement
+          label="Email"
+          type="email"
+          placeholder="Adresse email"
+          name="email"
+          required="required"
+        />
+        <FormElement
+          label="Entreprise"
+          type="name"
+          placeholder="Nom de votre entreprise"
+          name="entreprise"
+        />
+        <FormElement
+          label="Votre message"
+          type="message"
+          placeholder="Ecrivez votre message ici..."
+          name="message"
+          required
+        />
         <div className="flex items-center w-full">
           <button
             className="border border-zinc-400 rounded-xl p-3 bg-purple-400 text-white font-medium my-4 text-xl w-full"
