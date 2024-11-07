@@ -29,11 +29,11 @@ const Objective = () => {
           </span>{" "}
           <ul className="list-disc ml-6 lg:ml-12 mt-2">
             <li>
-              Remettre à jour le code fait pendant la formation au Reacteur →
-              Vinted en responsive
+              Continuer le projet de site E-commerce full stack en NextJs et
+              Tailwind avec le CMS sanity
             </li>
-            <li>Suivre un cours TypeScript</li>
-            <li>Commencer le projet : jeu du pendu en React et TypeScript</li>
+            <li>Continuer l'apprentissage de TypeScript</li>
+            {/* <li>Continuer </li> */}
           </ul>
         </p>
         <div className="flex justify-center items-center flex-col">
