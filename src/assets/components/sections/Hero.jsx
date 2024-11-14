@@ -7,7 +7,7 @@ const Hero = () => {
     <div className="w-full " id="portfolio">
       <div className="flex flex-wrap items-end mt-20">
         <div className=" w-full lg:w-2/3 lg:p-10">
-          <div className="flex flex-col items-center lg:items-start">
+          <div className="flex flex-col items-start">
             <motion.h1
               initial={{ x: -100, opacity: 0 }}
               animate={{ x: 0, opacity: 1 }}
