@@ -35,14 +35,7 @@ export const EXPERIENCES = [
     description: `
     Au sein d'une équipe de 4, j'ai pu réaliser en 2 semaines le MVP (minimum viable product) d'une application mobile de mise en contact de joueurs de Padel avec Expo depuis un Figma. En plus de mon rôle de développeuse, j'ai également eu le rôle de Product Owner où j'ai pu en amont du projet, écrire les stories et par la suite animer les dailies. J'ai notamment pu gérer la partie de la gestion de l'authentification avec un système de context, la création d'un hook personnalisé pour la validation du formulaire, la création d'une liste de composants dynamiques et réutilisables (buttons, card, input, checkbox, modal...), mais aussi la configuration des appels API avec le backend que nous avons créé et la gestion des données avec des hooks (useEffect, useState).
     `,
-    technologies: [
-      "HTML",
-      "CSS",
-      "Javascript",
-      "React.js",
-      "Typescript",
-      "Tailwind",
-    ],
+    technologies: ["React Native", "CSS", "Figma", "Node.js", "Express"],
     skills: ["User Stories", "Sprint", "Methode Agile"],
   },
   {
@@ -51,7 +44,15 @@ export const EXPERIENCES = [
     image: Reacteur,
     company: "Le Reacteur",
     description: `J'ai suivi une formation intense chez Le Reacteur qui est un bootcamp principalement sur React et React Native. J'ai pu travailler sur différents projets utilisant des stacks différentes. À la fin de la formation, j'ai également créé une application full stack qui reprend les codes d'une grande entreprise de Fast Food. `,
-    technologies: ["React Native", "CSS", "Figma", "Node.js", "Express"],
+    technologies: [
+      "React",
+      "React Native",
+      "HTML",
+      "CSS",
+      "JavaScript",
+      "Node.js",
+      "Express",
+    ],
     skills: [
       "Rigueur",
       "Capacité d'apprentissage rapide",

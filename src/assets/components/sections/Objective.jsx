@@ -14,10 +14,7 @@ const Objective = () => {
         <Title title="Mes objectifs" />
         <p className="my-2 lg:py-4 font-light whitespace-pre-line text-l lg:text-xl 2xl:text-2xl">
           Actuellement en recherche d'un{" "}
-          <span className="font-bold text-purple-800">
-            stage entre 3 et 6 mois
-          </span>{" "}
-          ou <span className="font-bold text-purple-800">une alternance</span>,
+          <span className="font-bold text-purple-800">stage de 6 mois</span> ,
           je souhaite approfondir les langages acquis durant ma formation. En
           parallèle, je continue de me former aux technologies courantes du
           marché et de consolider mes connaissances dans les outils déjà
