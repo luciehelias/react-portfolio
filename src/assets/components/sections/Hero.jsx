@@ -22,8 +22,8 @@ const Hero = () => {
               transition={{ duration: 0.5, delay: 0.3 }}
               className="bg-clip-text text-3xl lg:text-4xl 2xl:text-5xl font-light "
             >
-              Développeuse web full-stack{" "}
-              <span className="font-bold">(React)</span>
+              Développeuse
+              <span className="font-bold"> Player JS (React/TS)</span>
             </motion.h2>
             <motion.p
               initial={{ x: -100, opacity: 0 }}
@@ -31,11 +31,12 @@ const Hero = () => {
               transition={{ duration: 0.5, delay: 0.5 }}
               className="lg:my-2 lg:max-w-xl xl:max-w-6xl py-6 font-light tracking-tighter whitespace-pre-line text-l lg:text-xl 2xl:text-2xl"
             >
-              Développeuse passionnée et rigoureuse, je me suis spécialisée dans
-              les technologies Front-End et Back-End à travers des langages
-              comme{" "}
+              Développeuse passionnée et rigoureuse, en stage dans le groupe
+              Canal+ au sein de l'équipe player Web et Tv, je me suis
+              spécialisée dans les technologies Front-End et Back-End à travers
+              des langages comme{" "}
               <span className="font-bold text-purple-800">
-                JavaScript, React, Node.js et Express.
+                JavaScript, React, Typescript, Node.js et Express.
               </span>
               <br />
               Formée au sein du bootcamp {""}

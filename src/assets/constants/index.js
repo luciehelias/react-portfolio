@@ -8,6 +8,7 @@ import FrontendMentor7 from "../images/frontend-mentor-7.png";
 import Marvel from "../images/project-marvel.png";
 import Tripadvisor from "../images/project-tripadvisor.png";
 import Vinted from "../images/projet-Vinted.png";
+import Canal from "../images/canal-plus.png";
 
 import Learning from "../images/learning.jpeg";
 import Coffee from "../images/coffee.jpeg";
@@ -20,12 +21,12 @@ import Chemistry from "../images/chemistry.png";
 
 export const EXPERIENCES = [
   {
-    year: "Maintenant",
-    role: " Recherche Stage/Alternance : Dévéloppeuse Full Stack",
-    image: Job,
-    company: "?",
+    year: "Janvier 2025 - Juillet 2025",
+    role: " Développeuse palyer JS (React/TS)",
+    image: Canal,
+    company: "Canal +",
     description:
-      "Disponible de suite pour intégrer une entreprise et ainsi évoluer aux côtés de professionnels tout en apportant mon énergie et mes compétences à vos projets.",
+      "Je contribue à l’amélioration et la refonte du player de Canal+ sur Web et TV (correctifs de bugs, feature de nouvelles fonctionnalités, POC, amélioration de l’accessibilité du player). Je participe aux reviews, dailies meeting et j'estime et évalue avec l'équipe les users stories. Je réalise des veilles technologiques (démo ou point tech) où je fais une présentation devant l’équipe player (web/IOS/Android). J'ai un total de plus de 25 merged requests sur 2 projets player (gitlab). Je travaille avec JavaScript, React.js, TypeScript, Redux",
   },
   {
     year: "Septembre 2024",

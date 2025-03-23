@@ -13,12 +13,15 @@ const Objective = () => {
       <div className="flex flex-col ">
         <Title title="Mes objectifs" />
         <p className="my-2 lg:py-4 font-light whitespace-pre-line text-l lg:text-xl 2xl:text-2xl">
-          Actuellement en recherche d'un{" "}
-          <span className="font-bold text-purple-800">stage de 6 mois</span> ,
-          je souhaite approfondir les langages acquis durant ma formation. En
-          parallèle, je continue de me former aux technologies courantes du
-          marché et de consolider mes connaissances dans les outils déjà
-          explorés.
+          Actuellement en{" "}
+          <span className="font-bold text-purple-800">stage de 6 mois</span>{" "}
+          chez <span className="font-bold text-purple-800">Canal+</span>, je
+          mets en pratique mes compétences en JavaScript, TypeScript et React au
+          sein du player Web et Tv. Mon objectif est d’approfondir mes
+          connaissances dans ces technologies et de contribuer à des projets à
+          forte valeur ajoutée. À l’avenir, je suis à la recherche d’un poste en
+          CDI, où je pourrai continuer à développer mes compétences et
+          participer à des projets ambitieux en développement.
         </p>
         <p className="font-light whitespace-pre-line text-l lg:text-xl 2xl:text-2xl">
           <span className="underline text-pink-600 font-bold">
@@ -26,10 +29,10 @@ const Objective = () => {
           </span>{" "}
           <ul className="list-disc ml-6 lg:ml-12 mt-2">
             <li>
-              Continuer le projet de site E-commerce full stack en NextJs et
-              Tailwind avec le CMS sanity
+              Apprendre quotidiennement au sein du groupe Canal+ sur le player
+              Web et Tv
             </li>
-            <li>Continuer l'apprentissage de TypeScript</li>
+            {/* <li>Continuer l'apprentissage de TypeScript</li> */}
             {/* <li>Continuer </li> */}
           </ul>
         </p>
