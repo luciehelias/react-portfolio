@@ -25,7 +25,9 @@ export const EXPERIENCES = [
     image: Canal,
     company: "Canal +",
     description:
-      "Je contribue à l’amélioration et la refonte du player de Canal+ sur Web et TV (correctifs de bugs, feature de nouvelles fonctionnalités, POC, amélioration de l’accessibilité du player). Je participe aux reviews, dailies meeting et j'estime et évalue avec l'équipe les users stories. Je réalise des veilles technologiques (démo ou point tech) où je fais une présentation devant l’équipe player (web/IOS/Android). J'ai un total de plus de 25 merged requests sur 2 projets player (gitlab). Je travaille avec JavaScript, React.js, TypeScript, Redux",
+      "Je contribue à l’amélioration et la refonte du player de Canal+ sur Web et TV (correctifs de bugs, feature de nouvelles fonctionnalités, POC, amélioration de l’accessibilité du player). Je participe aux reviews, dailies meeting et j'estime et évalue avec l'équipe les users stories. Je réalise des veilles technologiques (démo ou point tech) où je fais une présentation devant l’équipe player (web/IOS/Android). J'ai un total de plus de 25 merged requests sur 2 projets player.",
+    technologies: ["JavaScript", "React", "Typescript", "Redux", "Gitlab"],
+    skills: ["Travail en équipe", "Adaptabilité", "Methode Kanban"],
   },
   {
     year: "Septembre 2024",
