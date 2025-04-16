@@ -13,7 +13,6 @@ import Canal from "../images/canal-plus.png";
 import Learning from "../images/learning.jpeg";
 import Coffee from "../images/coffee.jpeg";
 import Reacteur from "../images/reacteur.png";
-import Job from "../images/job.png";
 import Marketing from "../images/marketing.jpg";
 import Padel from "../images/padel.jpeg";
 import Study from "../images/study.png";
@@ -22,7 +21,7 @@ import Chemistry from "../images/chemistry.png";
 export const EXPERIENCES = [
   {
     year: "Janvier 2025 - Juillet 2025",
-    role: " Développeuse palyer JS (React/TS)",
+    role: " Développeuse player JS (React/TS)",
     image: Canal,
     company: "Canal +",
     description:
