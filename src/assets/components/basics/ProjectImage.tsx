@@ -1,6 +1,10 @@
-import React from "react";
+type ProjectImageProps = {
+  link: string;
+  title: string;
+  image: string;
+};
 
-const ProjectImage = ({ link, image, title }) => {
+const ProjectImage = ({ link, image, title }: ProjectImageProps) => {
   return (
     <a
       href={link}

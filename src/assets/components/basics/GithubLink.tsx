@@ -1,6 +1,11 @@
 import { FaGithub } from "react-icons/fa";
 
-const GithubLink = ({ url, title }) => {
+type GithubLinkProps = {
+  url: string;
+  title: string;
+};
+
+const GithubLink = ({ url, title }: GithubLinkProps) => {
   return (
     <a
       href={url}

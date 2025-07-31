@@ -1,9 +1,15 @@
-const Input = ({ type, placeholder, name, required }) => {
+type InputProps = {
+  type: string;
+  placeholder?: string;
+  name?: string;
+  required?: boolean;
+};
+
+const Input = ({ type, placeholder, name, required }: InputProps) => {
   return (
     <div>
       {type === "message" ? (
         <textarea
-          type={type}
           placeholder={placeholder}
           name={name}
           required

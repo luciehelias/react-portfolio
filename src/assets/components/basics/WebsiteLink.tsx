@@ -1,6 +1,11 @@
 import { FaLink } from "react-icons/fa6";
 
-const WebsiteLink = ({ url, title }) => {
+type WebsiteLinkProps = {
+  url: string;
+  title: string;
+};
+
+const WebsiteLink = ({ url, title }: WebsiteLinkProps) => {
   return (
     <a
       href={url}

@@ -1,4 +1,9 @@
-const Skill = ({ skill, tech }) => {
+type SkillProps = {
+  skill: string,
+  tech: string,
+};
+
+const Skill = ({ skill, tech }: SkillProps) => {
   return (
     <div>
       {skill ? (

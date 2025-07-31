@@ -1,4 +1,16 @@
-import Input from "../basics/Input";
+import Input from "./Input";
+
+type FormElementProps = {
+  label: string;
+  type: string;
+  placeholder: string;
+  name: string;
+  required: boolean;
+  value: string;
+  onChange: (
+    e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement>
+  ) => void;
+};
 
 const FormElement = ({
   label,
@@ -8,7 +20,7 @@ const FormElement = ({
   required,
   value,
   onChange,
-}) => {
+}: FormElementProps) => {
   return (
     <>
       {name === "honeypot" ? (
