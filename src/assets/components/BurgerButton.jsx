@@ -1,4 +1,3 @@
-// BurgerButton.js
 import { GiHamburgerMenu } from "react-icons/gi";
 import { useState } from "react";
 import NavBar from "./NavBar";

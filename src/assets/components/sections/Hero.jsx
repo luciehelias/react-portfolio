@@ -36,10 +36,14 @@ const Hero = () => {
             >
               <TextSection className="lg:my-2 lg:max-w-xl xl:max-w-6xl tracking-tighter ">
                 {" "}
-                Développeuse passionnée et rigoureuse, en stage dans le groupe
-                Canal+ au sein de l'équipe player Web et Tv, je me suis
-                spécialisée dans les technologies Front-End et Back-End à
-                travers des langages comme{" "}
+                Développeuse passionnée et rigoureuse, je viens de finir un
+                stage de 6 mois dans le groupe Canal+ au sein de l'équipe player
+                Web et Tv. J'ai eu l'opportunité de contribuer à l'amélioration
+                du player actuel ainsi que de développer le nouveau player
+                récemment mis en production.
+                <br />
+                Je me suis spécialisée dans les technologies Front-End et
+                Back-End à travers des langages comme{" "}
                 <BoldText>
                   JavaScript, React, Typescript, Node.js et Express.
                 </BoldText>
@@ -55,14 +59,20 @@ const Hero = () => {
                     Le Reacteur
                   </a>
                 </span>
-                , j’ai eu l’opportunité de réaliser divers projets techniques,
-                de la création d'interfaces utilisateurs réactives à la
-                construction de serveurs back-end.
+                , et également de manière autodidacte, j’ai eu l’opportunité de
+                réaliser divers projets techniques, de la création d'interfaces
+                utilisateurs réactives à la construction de serveurs back-end.
                 <br />
                 Mes compétences incluent également l’intégration d’APIs, la
                 gestion de bases de données et la création d’applications
                 mobiles en
                 <BoldText> React Native.</BoldText>
+                <br />
+                <br />
+                Aujourd’hui, je suis activement à la recherche de nouvelles
+                missions en <BoldText>freelance, CDI ou CDD.</BoldText> Ultra
+                motivée et enthousiaste, je souhaite mettre mes compétences au
+                service de projets innovants et challengeants.
               </TextSection>
             </motion.div>
           </div>
