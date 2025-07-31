@@ -85,7 +85,7 @@ const Hero = () => {
               transition={{ duration: 0.5, delay: 0.5 }}
               src={profilePic}
               alt="photo de profil de lucie, développeuse web"
-              className="rounded-2xl h-80 lg:h-96 lg:my-10 object-cover"
+              className="rounded-2xl h-80 lg:h-[30rem] xl:h-[40rem] lg:my-10 object-cover"
               loading="lazy"
             />
           </div>
