@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import { RiReactjsLine } from "react-icons/ri";
 import { TbBrandReactNative } from "react-icons/tb";
-import { SiExpress } from "react-icons/si";
+import { SiExpress, SiRedux } from "react-icons/si";
 import { FaHtml5 } from "react-icons/fa";
 import { FaCss3Alt } from "react-icons/fa";
 import { SiTailwindcss } from "react-icons/si";
@@ -11,19 +11,6 @@ import { SiMongodb } from "react-icons/si";
 import { RiJavascriptLine } from "react-icons/ri";
 import { motion } from "framer-motion";
 import Title from "../basics/Title";
-
-const iconVariants = (duration) => ({
-  initial: { y: -10 },
-  animate: {
-    y: [10, -10],
-    transition: {
-      duration: duration,
-      ease: "linear",
-      repeat: Infinity,
-      repeatType: "reverse",
-    },
-  },
-});
 
 const Technologies = () => {
   const technologies = [
@@ -52,6 +39,10 @@ const Technologies = () => {
     {
       icon: <RiReactjsLine className="text-5xl lg:text-7xl text-cyan-400" />,
       name: "React",
+    },
+    {
+      icon: <SiRedux className="text-5xl lg:text-7xl text-violet-500" />,
+      name: "Redux",
     },
     {
       icon: (

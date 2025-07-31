@@ -25,9 +25,25 @@ export const EXPERIENCES = [
     image: Canal,
     company: "Canal +",
     description:
-      "Je contribue à l’amélioration et la refonte du player de Canal+ sur Web et TV (correctifs de bugs, feature de nouvelles fonctionnalités, POC, amélioration de l’accessibilité du player). Je participe aux reviews, dailies meeting et j'estime et évalue avec l'équipe les users stories. Je réalise des veilles technologiques (démo ou point tech) où je fais une présentation devant l’équipe player (web/IOS/Android). J'ai un total de plus de 25 merged requests sur 2 projets player.",
-    technologies: ["JavaScript", "React", "Typescript", "Redux", "Gitlab"],
-    skills: ["Travail en équipe", "Adaptabilité", "Methode Kanban"],
+      "J'ai contribué à l’amélioration et la refonte du player de Canal+ sur Web et TV (correctifs de bugs, feature de nouvelles fonctionnalités, POC, amélioration de l’accessibilité du player). J'ai participé aux reviews, dailies meeting et j'ai estimé et évalué avec l'équipe les users stories ainsi que de créer des tickets quand je rencontrais un bug ou que je voyais une amélioration possible du player en accord avec les différentes équipes concernées. J'ai également collaboré de manière étroite avec les équipes design pour l'implémentation de nouvelles pages erreurs sur le nouveau player. J'ai réalisé des veilles technologiques (démo ou point tech) où j'ai pû faire une présentation devant l’équipe player (web/IOS/Android). J'ai eu un total de plus de 50 merged requests sur 2 projets player.",
+    technologies: [
+      "JavaScript",
+      "React",
+      "Typescript",
+      "Redux",
+      "Gitlab",
+      "Jira",
+      "Jest",
+      "Figma",
+    ],
+    skills: [
+      "Travail en équipe",
+      "Adaptabilité",
+      "Methode Kanban",
+      "Autonomie",
+      "Prise d'initiative",
+      "Communication",
+    ],
   },
   {
     year: "Septembre 2024",
@@ -63,7 +79,7 @@ export const EXPERIENCES = [
     ],
   },
   {
-    year: "Janvier 2024 - Maintenant",
+    year: "Janvier 2024 - Juillet 2024",
     role: "Formation : Dévéloppeuse Web",
     image: Learning,
     company: "Autodidacte",
@@ -80,12 +96,12 @@ export const EXPERIENCES = [
     skills: ["Autonomie", "Curiosité"],
   },
   {
-    year: " Mars 2017 - Maintenant ",
+    year: " Mars 2017 - Janvier 2025",
     role: "Barista Freelance / Manager Barista ",
     image: Coffee,
     company: "Nouvelle-Zélande, Australie, France",
     description:
-      "En tant que Freelance, je travaille dans plusieurs cafés parisiens de manière ponctuel ou régulière comme chez Noir Coffee Shop. J'ai pû pendant 3 ans travailler à l'étranger et devenir manager d'équipe. J'ai dû former et recruter des nouveaux employés internationaux, mais également participer activement au développement de la stratégie commerciale d'un restaurant et faire ainsi 30% de CA de plus que les années précédentes. ",
+      "En tant que Freelance, j'ai travaillé dans plusieurs cafés parisiens de manière ponctuel ou régulière comme chez Noir Coffee Shop. J'ai pû pendant 3 ans travailler à l'étranger et devenir manager d'équipe. J'ai dû former et recruter des nouveaux employés internationaux, mais également participer activement au développement de la stratégie commerciale d'un restaurant et faire ainsi 30% de CA de plus que les années précédentes. ",
     skills: [
       "Entrepreneuriat",
       "Autonomie",
