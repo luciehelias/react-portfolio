@@ -4,6 +4,8 @@ import { motion } from "framer-motion";
 
 import Title from "../basics/Title";
 import Project from "../Project";
+import BoldText from "../basics/BoldText";
+import TextSection from "../basics/TextSection";
 
 const Projects = () => {
   return (
@@ -15,17 +17,15 @@ const Projects = () => {
       transition={{ duration: 1.5 }}
     >
       <Title title="Mes projets" />
-      <p className="font-light tracking-tighter whitespace-pre-line lg:justify-center mb-12 lg:mb-32 text-l lg:text-xl 2xl:text-2xl lg:px-50">
-        Chaque projet me permet de produire{" "}
-        <span className="font-bold text-purple-800">
-          un code propre, testé et réutilisable
-        </span>
-        . Autodidacte, je continue de renforcer mes connaissances en explorant
-        de nouvelles technologies et en m’investissant dans des plateformes de
-        formation comme{" "}
-        <span className="font-bold text-purple-800">Frontend Mentor</span> et{" "}
-        <span className="font-bold text-purple-800">OpenClassrooms</span>.
-      </p>
+      <TextSection className="tracking-tighter lg:justify-center mb-12 lg:mb-32 lg:px-50">
+        {" "}
+        Chaque projet me permet de produire
+        <BoldText> un code propre, testé et réutilisable </BoldText>.
+        Autodidacte, je continue de renforcer mes connaissances en explorant de
+        nouvelles technologies et en m’investissant dans des plateformes de
+        formation comme <BoldText> Frontend Mentor </BoldText> et
+        <BoldText> OpenClassrooms.</BoldText>
+      </TextSection>
       <div>
         {PROJECTS.map((project, index) => (
           <Project key={index} {...project} />

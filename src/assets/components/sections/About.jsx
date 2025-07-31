@@ -2,6 +2,8 @@ import about from "../../images/about.avif";
 
 import { motion } from "framer-motion";
 import Title from "../basics/Title";
+import BoldText from "../basics/BoldText";
+import TextSection from "../basics/TextSection";
 
 const About = () => {
   return (
@@ -17,7 +19,7 @@ const About = () => {
         <div className="w-full lg:w-1/3 lg:p-8">
           <div className="flex items-center justify-center">
             <img
-              className="rounded-2xl h-80 object-cover "
+              className="rounded-2xl h-80 object-cover hidden sm:block"
               src={about}
               alt="photo"
             />
@@ -25,30 +27,24 @@ const About = () => {
         </div>
         <div className="w-full lg:w-2/3">
           <div className="flex justify-center lg:justify-normal lg:ml-28">
-            <p className="my-4 py-6 font-light whitespace-pre-line text-l lg:text-xl 2xl:text-2xl">
+            <TextSection className="my-0 sm:my-4">
               Développeuse full stack en début de parcours professionnel, j’ai
-              découvert une véritable passion pour{" "}
-              <span className="font-bold text-purple-800">
-                la création d’applications web dynamiques et accessibles.
-              </span>
-              <br />
+              découvert une véritable passion pour
+              <BoldText>
+                {" "}
+                la création d’applications web dynamiques et accessibles.{" "}
+              </BoldText>
               J'ai suivi une formation intensive et acquis de nombreuses
-              compétences que j’ai eu l’occasion d’appliquer sur des projets
-              concrets.{" "}
-              <span className="font-bold text-purple-800">
-                Curieuse et motivée
-              </span>
-              , j’aime apprendre de nouvelles technologies et relever des défis
-              techniques pour élargir mes compétences.
-              <br />
-              Toujours prête à collaborer et à m’adapter, je suis enthousiaste à
-              l’idée de{" "}
-              <span className="font-bold text-purple-800">
-                contribuer à des projets stimulants
-              </span>
-              , en m’efforçant d’améliorer chaque ligne de code pour offrir des
+              compétences que j'ai eu l’occasion d’appliquer sur des projets
+              concrets.
+              <BoldText> Curieuse et motivée</BoldText>, j’aime apprendre de
+              nouvelles technologies et relever des défis techniques pour
+              élargir mes compétences. Toujours prête à collaborer et à
+              m’adapter, je suis enthousiaste à l’idée de
+              <BoldText> contribuer à des projets stimulants</BoldText>, en
+              m’efforçant d’améliorer chaque ligne de code pour offrir des
               solutions de qualité.
-            </p>
+            </TextSection>
           </div>
         </div>
       </div>

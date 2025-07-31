@@ -1,6 +1,8 @@
 import { motion } from "framer-motion";
 
 import profilePic from "../../images/Lucie-Helias.png";
+import BoldText from "../basics/BoldText";
+import TextSection from "../basics/TextSection";
 
 const Hero = () => {
   return (
@@ -23,40 +25,46 @@ const Hero = () => {
               className="bg-clip-text text-3xl lg:text-4xl 2xl:text-5xl font-light "
             >
               Développeuse
-              <span className="font-bold"> Player JS (React/TS)</span>
+              <span className="font-bold">
+                FullStack / Front-end - React/TypeScript{" "}
+              </span>
             </motion.h2>
-            <motion.p
+            <motion.div
               initial={{ x: -100, opacity: 0 }}
               animate={{ x: 0, opacity: 1 }}
               transition={{ duration: 0.5, delay: 0.5 }}
-              className="lg:my-2 lg:max-w-xl xl:max-w-6xl py-6 font-light tracking-tighter whitespace-pre-line text-l lg:text-xl 2xl:text-2xl"
             >
-              Développeuse passionnée et rigoureuse, en stage dans le groupe
-              Canal+ au sein de l'équipe player Web et Tv, je me suis
-              spécialisée dans les technologies Front-End et Back-End à travers
-              des langages comme{" "}
-              <span className="font-bold text-purple-800">
-                JavaScript, React, Typescript, Node.js et Express.
-              </span>
-              <br />
-              Formée au sein du bootcamp {""}
-              <span className="font-bold">
-                <a
-                  href="https://www.lereacteur.io/bootcamp-javascript/formation-developpeur-web-mobile/"
-                  target="_blank"
-                >
-                  Le Reacteur
-                </a>
-              </span>
-              , j’ai eu l’opportunité de réaliser divers projets techniques, de
-              la création d'interfaces utilisateurs réactives à la construction
-              de serveurs back-end.
-              <br />
-              Mes compétences incluent également l’intégration d’APIs, la
-              gestion de bases de données et la création d’applications mobiles
-              en <span className="font-bold text-purple-800">React Native</span>
-              .
-            </motion.p>
+              <TextSection className="lg:my-2 lg:max-w-xl xl:max-w-6xl tracking-tighter ">
+                {" "}
+                Développeuse passionnée et rigoureuse, en stage dans le groupe
+                Canal+ au sein de l'équipe player Web et Tv, je me suis
+                spécialisée dans les technologies Front-End et Back-End à
+                travers des langages comme{" "}
+                <BoldText>
+                  JavaScript, React, Typescript, Node.js et Express.
+                </BoldText>
+                <br />
+                Formée au sein du bootcamp
+                <span className="font-bold">
+                  <a
+                    href="https://www.lereacteur.io/bootcamp-javascript/formation-developpeur-web-mobile/"
+                    target="_blank"
+                    className="cursor-pointer "
+                  >
+                    {" "}
+                    Le Reacteur
+                  </a>
+                </span>
+                , j’ai eu l’opportunité de réaliser divers projets techniques,
+                de la création d'interfaces utilisateurs réactives à la
+                construction de serveurs back-end.
+                <br />
+                Mes compétences incluent également l’intégration d’APIs, la
+                gestion de bases de données et la création d’applications
+                mobiles en
+                <BoldText> React Native.</BoldText>
+              </TextSection>
+            </motion.div>
           </div>
         </div>
         <div className="w-full lg:w-1/3 lg:p-8">
@@ -66,8 +74,9 @@ const Hero = () => {
               animate={{ x: 0, opacity: 1 }}
               transition={{ duration: 0.5, delay: 0.5 }}
               src={profilePic}
-              alt=" photo de profil"
+              alt="photo de profil de lucie, développeuse web"
               className="rounded-2xl h-80 lg:h-96 lg:my-10 object-cover"
+              loading="lazy"
             />
           </div>
         </div>

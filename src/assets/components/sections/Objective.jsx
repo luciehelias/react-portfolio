@@ -1,5 +1,7 @@
-import { motion } from "framer-motion";
+﻿import { motion } from "framer-motion";
 import Title from "../basics/Title";
+import BoldText from "../basics/BoldText";
+import TextSection from "../basics/TextSection";
 
 const Objective = () => {
   return (
@@ -12,34 +14,35 @@ const Objective = () => {
     >
       <div className="flex flex-col ">
         <Title title="Mes objectifs" />
-        <p className="my-2 lg:py-4 font-light whitespace-pre-line text-l lg:text-xl 2xl:text-2xl">
-          Actuellement en{" "}
-          <span className="font-bold text-purple-800">stage de 6 mois</span>{" "}
-          chez <span className="font-bold text-purple-800">Canal+</span>, je
-          mets en pratique mes compétences en JavaScript, TypeScript et React au
-          sein du player Web et Tv. Mon objectif est d’approfondir mes
-          connaissances dans ces technologies et de contribuer à des projets à
-          forte valeur ajoutée. À l’avenir, je suis à la recherche d’un poste en
-          CDI, où je pourrai continuer à développer mes compétences et
-          participer à des projets ambitieux en développement.
-        </p>
-        <p className="font-light whitespace-pre-line text-l lg:text-xl 2xl:text-2xl">
+        <TextSection className="my-2 lg:py-4">
+          J’ai récemment terminé un
+          <BoldText> stage de 6 mois chez Canal+</BoldText>, où j’ai mis en
+          pratique mes compétences en JavaScript, TypeScript et React au sein
+          des équipes en charge du player Web et TV. Cette expérience m’a permis
+          de contribuer à des projets concrets, alliant performance,
+          accessibilité et qualité du code. Grâce à ma formation, j’ai également
+          acquis des bases solides en développement backend avec Node.js.
+          Aujourd’hui, je suis à la recherche d’opportunités
+          <BoldText> freelance, CDI ou CDD </BoldText>
+          pour continuer à évoluer sur des projets ambitieux, aussi bien en
+          développement front-end qu’en fullstack.
+        </TextSection>
+        <p className="font-light whitespace-pre-line text-lg lg:text-xl 2xl:text-2xl">
           <span className="underline text-pink-600 font-bold">
             Les projets du moment :
-          </span>{" "}
-          <ul className="list-disc ml-6 lg:ml-12 mt-2">
-            <li>
-              Apprendre quotidiennement au sein du groupe Canal+ sur le player
-              Web et Tv
-            </li>
-            {/* <li>Continuer l'apprentissage de TypeScript</li> */}
-            {/* <li>Continuer </li> */}
-          </ul>
+          </span>
         </p>
+        <ul className="font-light whitespace-pre-line text-lg lg:text-xl 2xl:text-2xl list-disc ml-6 lg:ml-12 mt-2">
+          <li>Continuer de me former sur React et Typescript</li>
+          <li>
+            Faire un projet complet (front-end et back-end) d’apprentissage de
+            langues
+          </li>
+        </ul>
         <div className="flex justify-center items-center flex-col">
-          <p className="my-12 pb-4 lg:py-6 whitespace-pre-line text-l lg:text-2xl 2xl:text-3xl font-normal">
+          <p className="my-12 pb-4 lg:py-6 whitespace-pre-line text-lg lg:text-2xl 2xl:text-3xl font-normal">
             Je serais ravie de contribuer à vos projets ! N'hésitez pas à me
-            contacter pour en discuter
+            contacter pour en discuter.
           </p>
           <a
             href="#contact"
