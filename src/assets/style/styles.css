@@ -1,0 +1,3 @@
+.common-text {
+  @apply py-6 font-light whitespace-pre-line text-lg lg:text-xl 2xl:text-2xl;
+}
