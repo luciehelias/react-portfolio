@@ -28,8 +28,9 @@ const About = () => {
         <div className="w-full lg:w-2/3">
           <div className="flex justify-center lg:justify-normal lg:ml-28">
             <TextSection className="my-0 sm:my-4">
-              Développeuse full stack en début de parcours professionnel, j’ai
-              découvert une véritable passion pour
+              Développeuse full stack avec une appétence pour le Front-End en
+              début de parcours professionnel, j’ai découvert une véritable
+              passion pour
               <BoldText>
                 {" "}
                 la création d’applications web dynamiques et accessibles.{" "}

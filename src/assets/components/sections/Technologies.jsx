@@ -1,4 +1,3 @@
-import React, { useState } from "react";
 import { RiReactjsLine } from "react-icons/ri";
 import { TbBrandReactNative } from "react-icons/tb";
 import { SiExpress, SiRedux } from "react-icons/si";
@@ -10,6 +9,7 @@ import { FaNodeJs } from "react-icons/fa";
 import { SiMongodb } from "react-icons/si";
 import { RiJavascriptLine } from "react-icons/ri";
 import { motion } from "framer-motion";
+import { RiNextjsFill } from "react-icons/ri";
 import Title from "../basics/Title";
 
 const Technologies = () => {
@@ -43,6 +43,10 @@ const Technologies = () => {
     {
       icon: <SiRedux className="text-5xl lg:text-7xl text-violet-500" />,
       name: "Redux",
+    },
+    {
+      icon: <RiNextjsFill className="text-5xl lg:text-7xl" />,
+      name: "Next",
     },
     {
       icon: (

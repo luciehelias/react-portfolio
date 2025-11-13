@@ -24,9 +24,9 @@ const Hero = () => {
               transition={{ duration: 0.5, delay: 0.3 }}
               className="bg-clip-text text-3xl lg:text-4xl 2xl:text-5xl font-light "
             >
-              Développeuse
+              Développeuse{" "}
               <span className="font-bold">
-                FullStack / Front-end - React/TypeScript{" "}
+                FullStack / Front-End - React/TypeScript{" "}
               </span>
             </motion.h2>
             <motion.div
@@ -56,10 +56,10 @@ const Hero = () => {
                     className="cursor-pointer "
                   >
                     {" "}
-                    Le Reacteur
+                    Le Reacteur{" "}
                   </a>
                 </span>
-                , et également de manière autodidacte, j’ai eu l’opportunité de
+                et également de manière autodidacte, j’ai eu l’opportunité de
                 réaliser divers projets techniques, de la création d'interfaces
                 utilisateurs réactives à la construction de serveurs back-end.
                 <br />
@@ -69,10 +69,11 @@ const Hero = () => {
                 <BoldText> React Native.</BoldText>
                 <br />
                 <br />
-                Aujourd’hui, je suis activement à la recherche de nouvelles
-                missions en <BoldText>freelance, CDI ou CDD.</BoldText> Ultra
-                motivée et enthousiaste, je souhaite mettre mes compétences au
-                service de projets innovants et challengeants.
+                Aujourd’hui, je suis activement à la recherche d'une{" "}
+                <BoldText>alternance </BoldText>
+                ou d'un <BoldText>CDI ou CDD.</BoldText> Ultra motivée et
+                enthousiaste, je souhaite mettre mes compétences au service de
+                projets innovants et challengeants.
               </TextSection>
             </motion.div>
           </div>

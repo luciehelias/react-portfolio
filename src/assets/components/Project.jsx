@@ -18,7 +18,7 @@ const Project = (project, index) => {
     slidesToScroll: 1,
   };
   return (
-    <div key={index} className="mb-8 flex flex-wrap lg:justify-center">
+    <div key={index} className="mb-12 gap-6 flex flex-wrap lg:justify-center">
       <motion.div
         className={`w-full max-w-xl ${
           project.image ? "lg:w-3/4" : "lg:w-full"

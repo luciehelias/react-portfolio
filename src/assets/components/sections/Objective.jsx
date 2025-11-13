@@ -22,8 +22,10 @@ const Objective = () => {
           de contribuer à des projets concrets, alliant performance,
           accessibilité et qualité du code. Grâce à ma formation, j’ai également
           acquis des bases solides en développement backend avec Node.js.
-          Aujourd’hui, je suis à la recherche d’opportunités
-          <BoldText> freelance, CDI ou CDD </BoldText>
+          Aujourd’hui, je suis à la recherche d’opportunités soit en{" "}
+          <BoldText>alternance </BoldText>
+          soit en
+          <BoldText> CDI ou CDD </BoldText>
           pour continuer à évoluer sur des projets ambitieux, aussi bien en
           développement front-end qu’en fullstack.
         </TextSection>
@@ -33,10 +35,10 @@ const Objective = () => {
           </span>
         </p>
         <ul className="font-light whitespace-pre-line text-lg lg:text-xl 2xl:text-2xl list-disc ml-6 lg:ml-12 mt-2">
-          <li>Continuer de me former sur React et Typescript</li>
           <li>
-            Faire un projet complet (front-end et back-end) d’apprentissage de
-            langues
+            Continuer à travailler sur le projet (Next.JS) VocaBuddy avec un
+            autre développeur - un projet d’apprentissage de langues par
+            flashcards.
           </li>
         </ul>
         <div className="flex justify-center items-center flex-col">
