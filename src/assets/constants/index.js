@@ -9,7 +9,7 @@ import Marvel from "../images/project-marvel.png";
 import Tripadvisor from "../images/project-tripadvisor.png";
 import Vinted from "../images/projet-Vinted.png";
 import Canal from "../images/canal-plus.png";
-import Vocabuddy from "../images/Vocabuddy.png";
+import vocabuddy from "../images/vocabuddy.png";
 
 import Learning from "../images/learning.jpeg";
 import Coffee from "../images/coffee.jpeg";
@@ -144,7 +144,7 @@ export const EXPERIENCES = [
 export const PROJECTS = [
   {
     title: "VocaBuddy - Application d'apprentissage de vocabulaire",
-    image: Vocabuddy,
+    image: vocabuddy,
     description:
       "Actuellement, je travaille en collaboration avec un autre développeur sur une application d’apprentissage des langues basée sur un système de flashcards. Cette application permettra aux utilisateurs de créer leurs propres listes de vocabulaire, de suivre leurs progrès et de renforcer leurs connaissances grâce à des quiz. Pour le moment, l’application est encore en cours de développement.",
     link: "https://github.com/luciehelias/VocaBuddy",
